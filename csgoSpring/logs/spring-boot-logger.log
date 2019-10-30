@@ -1,0 +1,9 @@
+2019-10-30 17:03:46,623 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] {
+	"id": "1",
+	"person": {
+		"name" : "Nick Reifler",
+		"age": "drei",
+		"rank": "wood 1",
+		"hobbies": ["csgo", "kinder toxic machen", "toxic sein", "salty sein"]
+	}
+}
