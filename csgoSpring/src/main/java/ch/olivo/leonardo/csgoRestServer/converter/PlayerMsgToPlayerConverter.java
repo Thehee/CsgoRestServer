@@ -10,12 +10,14 @@ import java.util.List;
 public class PlayerMsgToPlayerConverter {
 
   private WeaponsMsgToWeaponListConverter weaponListConverter;
+  private PlayerStateMsgToPlayerState playerStateConverter;
 
   public Player convert(ch.olivo.leonardo.csgoRestServer.controller.msg.Player player) {
     List<Weapon> weapons = weaponListConverter.convert(player.getWeapons());
     return Player.builder()
         .team(player.getTeam())
         .weapons(weapons)
+        .playerState(playerStateConverter.convert(player.getState()))
         .build();
   }
 }

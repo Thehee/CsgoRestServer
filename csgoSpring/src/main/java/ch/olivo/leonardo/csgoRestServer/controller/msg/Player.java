@@ -9,7 +9,7 @@ public class Player {
   private String name;
   private String team;
   private Integer observer_slot;
-  private State state;
+  private PlayerState state;
   private Weapons weapons;
   private MatchStats match_stats;
 }

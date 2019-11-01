@@ -7,3 +7,4 @@
 2019-11-01 10:17:13,694 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] nice
 2019-11-01 10:17:28,087 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] nice
 2019-11-01 10:17:46,865 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-4] nice
+2019-11-01 16:40:05,496 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] nice

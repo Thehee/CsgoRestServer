@@ -10,4 +10,5 @@ import java.util.List;
 public class Player {
   private String team;
   private List<Weapon> weapons;
+  private PlayerState playerState;
 }

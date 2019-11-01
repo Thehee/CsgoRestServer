@@ -3,13 +3,13 @@ package ch.olivo.leonardo.csgoRestServer.controller.msg;
 import lombok.Getter;
 
 @Getter
-public class State {
+public class PlayerState {
   private int health;
   private int armor;
   private boolean helmet;
-  private int flashed;
-  private int smoked;
-  private int burning;
+  private boolean flashed;
+  private boolean smoked;
+  private boolean burning;
   private int money;
   private int round_kills;
   private int round_killhs;
