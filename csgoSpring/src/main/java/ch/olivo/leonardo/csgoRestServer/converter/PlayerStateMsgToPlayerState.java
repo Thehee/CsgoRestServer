@@ -12,6 +12,8 @@ public class PlayerStateMsgToPlayerState {
         .flashed(playerState.isFlashed())
         .smoked(playerState.isSmoked())
         .health(playerState.getHealth())
+        .round_kills(playerState.getRound_kills())
+        .round_killhs(playerState.getRound_killhs())
         .build();
   }
 }
