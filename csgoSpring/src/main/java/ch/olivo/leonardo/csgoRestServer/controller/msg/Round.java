@@ -6,4 +6,5 @@ import lombok.Getter;
 public class Round {
   private String phase;
   private String bomb;
+  private String win_team;
 }

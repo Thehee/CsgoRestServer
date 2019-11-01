@@ -10,4 +10,8 @@ public class AddedWeapons {
   private Object weapon_2;
   private Object weapon_3;
   private Object weapon_4;
+  private Object weapon_5;
+  private Object weapon_6;
+  private Object weapon_7;
+  private Object weapon_8;
 }

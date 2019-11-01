@@ -10,4 +10,5 @@ public class CsgoEventRequest {
   private Player player;
   private Added added;
   private Auth auth;
+  private Previously previously;
 }
