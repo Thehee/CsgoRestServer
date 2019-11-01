@@ -1,0 +1,8805 @@
+2019-10-30 19:39:13,945 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-1] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460747
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"name": "?????",
+		"activity": "menu"
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:39:45,198 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460784
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"name": "unconnected",
+		"team": "CT",
+		"activity": "playing",
+		"state": {
+			"health": 0,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 0
+		},
+		"weapons": {
+
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"name": "?????",
+			"activity": "menu"
+		}
+	},
+	"added": {
+		"player": {
+			"team": true,
+			"state": true,
+			"weapons": true,
+			"match_stats": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:39:46,976 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-4] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460786
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"activity": "playing",
+		"state": {
+			"health": 0,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 0
+		},
+		"weapons": {
+
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"name": "unconnected",
+			"team": "CT"
+		}
+	},
+	"added": {
+		"player": {
+			"clan": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:39:50,030 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-5] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460790
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 34463,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"health": 0,
+				"armor": 0,
+				"helmet": false,
+				"money": 0,
+				"equip_value": 0
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_0": true,
+				"weapon_1": true
+			},
+			"team": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:39:51,375 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-6] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460791
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 3900
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "cu_ak47_asiimov",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 34463,
+				"equip_value": 1200
+			},
+			"weapons": {
+				"weapon_1": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_2": true
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:39:52,058 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-7] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460792
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 3900
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "cu_ak47_asiimov",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "holstered"
+				},
+				"weapon_2": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:39:52,686 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-8] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460792
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 3900
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "cu_ak47_asiimov",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "active"
+				},
+				"weapon_2": {
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:39:54,543 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-9] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460794
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 3900
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "cu_ak47_asiimov",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "holstered"
+				},
+				"weapon_2": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:39:56,587 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-10] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460796
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 3900
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "cu_ak47_asiimov",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "active"
+				},
+				"weapon_2": {
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:39:58,090 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-1] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460798
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 3900
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "cu_ak47_asiimov",
+				"type": "Rifle",
+				"ammo_clip": 29,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_2": {
+					"ammo_clip": 30
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:39:58,707 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460798
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 1,
+			"round_killhs": 0,
+			"equip_value": 3900
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "cu_ak47_asiimov",
+				"type": "Rifle",
+				"ammo_clip": 22,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 1,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 11
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"round_kills": 0
+			},
+			"weapons": {
+				"weapon_2": {
+					"ammo_clip": 29
+				}
+			},
+			"match_stats": {
+				"kills": 0,
+				"score": 0
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:39:59,327 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460799
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 1,
+			"round_killhs": 0,
+			"equip_value": 3900
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "cu_ak47_asiimov",
+				"type": "Rifle",
+				"ammo_clip": 20,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 1,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 11
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_2": {
+					"ammo_clip": 22
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:40:03,295 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-4] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460803
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 1,
+			"round_killhs": 0,
+			"equip_value": 3900
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "cu_ak47_asiimov",
+				"type": "Rifle",
+				"ammo_clip": 19,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 1,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 11
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_2": {
+					"ammo_clip": 20
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:40:03,936 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-5] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460803
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 2,
+			"round_killhs": 0,
+			"equip_value": 3900
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "cu_ak47_asiimov",
+				"type": "Rifle",
+				"ammo_clip": 12,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 2,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 22
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"round_kills": 1
+			},
+			"weapons": {
+				"weapon_2": {
+					"ammo_clip": 19
+				}
+			},
+			"match_stats": {
+				"kills": 1,
+				"score": 11
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:40:04,561 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-6] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460804
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 2,
+			"round_killhs": 0,
+			"equip_value": 3900
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "cu_ak47_asiimov",
+				"type": "Rifle",
+				"ammo_clip": 10,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			}
+		},
+		"match_stats": {
+			"kills": 2,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 22
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "holstered"
+				},
+				"weapon_2": {
+					"ammo_clip": 12,
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:40:05,201 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-7] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460805
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 2,
+			"round_killhs": 0,
+			"equip_value": 3900
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "cu_ak47_asiimov",
+				"type": "Rifle",
+				"ammo_clip": 10,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 2,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 22
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "active"
+				},
+				"weapon_2": {
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:40:05,841 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-8] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460805
+	},
+	"map": {
+		"mode": "deathmatch",
+		"name": "de_mirage",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"team": "T",
+		"activity": "textinput",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 2,
+			"round_killhs": 0,
+			"equip_value": 3900
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_ak47",
+				"paintkit": "cu_ak47_asiimov",
+				"type": "Rifle",
+				"ammo_clip": 10,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 2,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 22
+		}
+	},
+	"previously": {
+		"player": {
+			"activity": "playing"
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:40:09,960 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-9] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460809
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"name": "?????",
+		"activity": "menu"
+	},
+	"previously": {
+		"map": true,
+		"round": true,
+		"player": {
+			"clan": "LAA_Gaming",
+			"team": "T",
+			"activity": "textinput",
+			"state": {
+				"health": 100,
+				"armor": 100,
+				"helmet": true,
+				"flashed": 0,
+				"smoked": 0,
+				"burning": 0,
+				"money": 0,
+				"round_kills": 2,
+				"round_killhs": 0,
+				"equip_value": 3900
+			},
+			"weapons": {
+				"weapon_0": {
+					"name": "weapon_knife_karambit",
+					"paintkit": "default",
+					"type": "Knife",
+					"state": "holstered"
+				},
+				"weapon_1": {
+					"name": "weapon_glock",
+					"paintkit": "aa_glock_18_urban_moon_fever",
+					"type": "Pistol",
+					"ammo_clip": 20,
+					"ammo_clip_max": 20,
+					"ammo_reserve": 120,
+					"state": "holstered"
+				},
+				"weapon_2": {
+					"name": "weapon_ak47",
+					"paintkit": "cu_ak47_asiimov",
+					"type": "Rifle",
+					"ammo_clip": 10,
+					"ammo_clip_max": 30,
+					"ammo_reserve": 90,
+					"state": "active"
+				}
+			},
+			"match_stats": {
+				"kills": 2,
+				"assists": 0,
+				"deaths": 0,
+				"mvps": 0,
+				"score": 22
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:41:10,010 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-1] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460870
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"name": "?????",
+		"activity": "menu"
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:41:29,031 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460889
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"activity": "playing",
+		"state": {
+			"health": 0,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 1000,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 0
+		},
+		"weapons": {
+
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"activity": "menu"
+		}
+	},
+	"added": {
+		"player": {
+			"clan": true,
+			"state": true,
+			"weapons": true,
+			"match_stats": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:41:32,425 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460892
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "over"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 2,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 1000,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "live"
+		},
+		"player": {
+			"state": {
+				"health": 0,
+				"armor": 0,
+				"helmet": false,
+				"equip_value": 0
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_0": true,
+				"weapon_1": true
+			},
+			"observer_slot": true,
+			"team": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:41:33,047 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-4] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460893
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "LAA_Gaming",
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "freezetime"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 1000,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"added": {
+		"map": {
+			"team_t": {
+				"name": true
+			}
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "over"
+		},
+		"player": {
+			"observer_slot": 2
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:41:34,086 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-5] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460894
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "LAA_Gaming",
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "freezetime"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "textinput",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 1000,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"activity": "playing"
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:41:36,007 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-6] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460896
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "LAA_Gaming",
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "freezetime"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "textinput",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 1000,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"observer_slot": 6
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:41:36,947 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-7] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460896
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "LAA_Gaming",
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "freezetime"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 1000,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"activity": "textinput"
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:41:37,895 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-8] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460897
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "LAA_Gaming",
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 1000,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "freezetime"
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:41:40,163 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-9] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460900
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "LAA_Gaming",
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 700,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1500
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_hegrenade",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "holstered"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 1000,
+				"equip_value": 1200
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_2": true
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:41:40,787 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-10] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460900
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "LAA_Gaming",
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1700
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_hegrenade",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_flashbang",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "holstered"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 700,
+				"equip_value": 1500
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_3": true
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:41:41,412 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-1] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460901
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "LAA_Gaming",
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1700
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_hegrenade",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_flashbang",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "holstered"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "holstered"
+				},
+				"weapon_1": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:41:42,071 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460902
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "LAA_Gaming",
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1700
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_hegrenade",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "active"
+			},
+			"weapon_3": {
+				"name": "weapon_flashbang",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "holstered"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "active"
+				},
+				"weapon_2": {
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:41:43,675 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460903
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "LAA_Gaming",
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1700
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_hegrenade",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_flashbang",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_2": {
+					"state": "active"
+				},
+				"weapon_3": {
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:42:41,493 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-5] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460961
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "LAA_Gaming",
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "menu",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1700
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_hegrenade",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_flashbang",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"activity": "playing"
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:42:42,123 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-6] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460962
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "LAA_Gaming",
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1700
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_hegrenade",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_flashbang",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"activity": "menu"
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:42:42,778 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-7] {
+	"provider": {
+		"name": "Counter-Strike: Global Offensive",
+		"appid": 730,
+		"version": 13722,
+		"steamid": "76561198439766138",
+		"timestamp": 1572460962
+	},
+	"map": {
+		"mode": "casual",
+		"name": "workshop/1230526174/vs_arena_orange_and_grey",
+		"phase": "live",
+		"round": 0,
+		"team_ct": {
+			"score": 0,
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"team_t": {
+			"score": 0,
+			"name": "LAA_Gaming",
+			"consecutive_round_losses": 0,
+			"timeouts_remaining": 1,
+			"matches_won_this_series": 0
+		},
+		"num_matches_to_win_series": 0,
+		"current_spectators": 0,
+		"souvenirs_total": 0
+	},
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "textinput",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1700
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_hegrenade",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_flashbang",
+				"paintkit": "default",
+				"type": "Grenade",
+				"ammo_reserve": 1,
+				"state": "active"
+			}
+		},
+		"match_stats": {
+			"kills": 0,
+			"assists": 0,
+			"deaths": 0,
+			"mvps": 0,
+			"score": 0
+		}
+	},
+	"previously": {
+		"player": {
+			"activity": "playing"
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:46:03,945 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-9] {
+	"player": {
+		"steamid": "76561198439766138",
+		"name": "?????",
+		"activity": "menu"
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:46:40,644 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-1] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"name": "unconnected",
+		"activity": "playing",
+		"state": {
+			"health": 0,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 0
+		},
+		"weapons": {
+
+		}
+	},
+	"previously": {
+		"player": {
+			"name": "?????",
+			"activity": "menu"
+		}
+	},
+	"added": {
+		"player": {
+			"state": true,
+			"weapons": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:46:44,296 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"activity": "playing",
+		"state": {
+			"health": 0,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 0
+		},
+		"weapons": {
+
+		}
+	},
+	"previously": {
+		"player": {
+			"name": "unconnected"
+		}
+	},
+	"added": {
+		"player": {
+			"clan": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:46:47,575 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] {
+	"round": {
+		"phase": "over"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "live"
+		},
+		"player": {
+			"state": {
+				"health": 0,
+				"armor": 0,
+				"helmet": false,
+				"equip_value": 0
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_0": true,
+				"weapon_1": true
+			},
+			"observer_slot": true,
+			"team": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:46:48,412 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-4] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "over"
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:46:50,087 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-5] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 1,
+		"team": "T",
+		"activity": "textinput",
+		"state": {
+			"health": 100,
+			"armor": 100,
+			"helmet": true,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 1200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"activity": "playing"
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:46:51,295 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-6] {
+	"player": {
+		"steamid": "76561198439766138",
+		"name": "?????",
+		"activity": "menu"
+	},
+	"previously": {
+		"round": true,
+		"player": {
+			"clan": "LAA_Gaming",
+			"observer_slot": 1,
+			"team": "T",
+			"activity": "textinput",
+			"state": {
+				"health": 100,
+				"armor": 100,
+				"helmet": true,
+				"flashed": 0,
+				"smoked": 0,
+				"burning": 0,
+				"money": 0,
+				"round_kills": 0,
+				"round_killhs": 0,
+				"equip_value": 1200
+			},
+			"weapons": {
+				"weapon_0": {
+					"name": "weapon_knife_karambit",
+					"paintkit": "default",
+					"type": "Knife",
+					"state": "holstered"
+				},
+				"weapon_1": {
+					"name": "weapon_glock",
+					"paintkit": "aa_glock_18_urban_moon_fever",
+					"type": "Pistol",
+					"ammo_clip": 20,
+					"ammo_clip_max": 20,
+					"ammo_reserve": 120,
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:47:13,328 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-7] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"name": "?????",
+		"activity": "playing",
+		"state": {
+			"health": 0,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 0
+		},
+		"weapons": {
+
+		}
+	},
+	"previously": {
+		"player": {
+			"activity": "menu"
+		}
+	},
+	"added": {
+		"player": {
+			"state": true,
+			"weapons": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:47:18,087 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-8] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"activity": "playing",
+		"state": {
+			"health": 0,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 0
+		},
+		"weapons": {
+
+		}
+	},
+	"added": {
+		"player": {
+			"clan": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:47:21,438 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-9] {
+	"round": {
+		"phase": "over"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 2,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "live"
+		},
+		"player": {
+			"state": {
+				"health": 0,
+				"equip_value": 0
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_0": true,
+				"weapon_1": true
+			},
+			"observer_slot": true,
+			"team": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:47:22,081 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-10] {
+	"round": {
+		"phase": "freezetime"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "over"
+		},
+		"player": {
+			"observer_slot": 2,
+			"weapons": {
+				"weapon_1": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_2": true
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:47:23,091 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-1] {
+	"round": {
+		"phase": "freezetime"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"state": "holstered"
+				},
+				"weapon_2": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:47:23,778 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] {
+	"round": {
+		"phase": "freezetime"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "holstered"
+				},
+				"weapon_1": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:47:36,869 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "freezetime"
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:47:56,996 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-4] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "active"
+				},
+				"weapon_2": {
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:01,329 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-5] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 1100,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 800
+			},
+			"weapons": {
+				"weapon_1": {
+					"state": "holstered"
+				},
+				"weapon_2": {
+					"name": "weapon_c4",
+					"paintkit": "default",
+					"type": "C4",
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:01,970 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-6] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 1100,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"added": {
+		"round": {
+			"bomb": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:18,089 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-7] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 1100,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 19,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 20
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:18,736 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-8] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 1100,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 17,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 19
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:19,402 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-9] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 16,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 1100
+			},
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 17
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:21,106 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-10] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 15,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 16
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:21,752 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-1] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 13,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 800
+			},
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 15
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:23,916 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 12,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 13
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:24,542 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 9,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 12
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:25,183 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-4] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 6,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 9
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:25,824 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-5] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 5,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 6
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:26,463 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-6] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 3,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 5
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:27,089 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-7] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 1,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 3
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:27,734 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-8] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "reloading"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 1,
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:28,713 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-9] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "reloading"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 0,
+					"ammo_reserve": 120
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:29,354 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-10] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "holstered"
+				},
+				"weapon_1": {
+					"state": "reloading"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:29,993 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-1] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 200,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 500
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:35,214 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 200,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "active"
+				},
+				"weapon_1": {
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:36,699 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 200,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 18,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 20
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:37,359 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-4] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 200,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 16,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 18
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:38,003 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-5] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 200,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 12,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 16
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:38,642 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-6] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 200,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 9,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 12
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:39,265 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-7] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 200,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 5,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 9
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:40,183 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-8] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 3,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 200
+			},
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 5
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:40,843 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-9] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 0,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 2,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 3
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:42,368 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-10] {
+	"round": {
+		"phase": "over",
+		"win_team": "T",
+		"bomb": "exploded"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 2,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "live",
+			"bomb": "planted"
+		},
+		"player": {
+			"state": {
+				"money": 0
+			}
+		}
+	},
+	"added": {
+		"round": {
+			"win_team": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:43,213 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-1] {
+	"round": {
+		"phase": "over",
+		"win_team": "T",
+		"bomb": "exploded"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 2,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "reloading"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:44,135 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] {
+	"round": {
+		"phase": "over",
+		"win_team": "T",
+		"bomb": "exploded"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 82,
+				"state": "reloading"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 2,
+					"ammo_reserve": 100
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:45,496 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] {
+	"round": {
+		"phase": "over",
+		"win_team": "T",
+		"bomb": "exploded"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 82,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"state": "reloading"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:48:49,409 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-4] {
+	"round": {
+		"phase": "freezetime"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "over",
+			"win_team": "T",
+			"bomb": "exploded"
+		},
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_reserve": 82,
+					"state": "active"
+				}
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_2": true
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:00,480 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-5] {
+	"round": {
+		"phase": "freezetime"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"state": "holstered"
+				},
+				"weapon_2": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:01,105 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-6] {
+	"round": {
+		"phase": "freezetime"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "holstered"
+				},
+				"weapon_1": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:03,853 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-7] {
+	"round": {
+		"phase": "freezetime"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "active"
+				},
+				"weapon_1": {
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:04,479 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-8] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "freezetime"
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:05,472 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-9] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 19,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 20
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:06,431 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-10] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 17,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 19
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:07,109 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-1] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 15,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 17
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:07,752 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 13,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 15
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:08,402 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 10,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 13
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:09,048 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-4] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 7,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 10
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:09,690 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-5] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 4,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 7
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:10,330 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-6] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 1,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 4
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:10,973 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-7] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 1
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:11,613 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-8] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "reloading"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:12,252 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-9] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3500,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 200
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "holstered"
+				},
+				"weapon_1": {
+					"state": "reloading"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:12,892 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-10] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 3200,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 3500,
+				"equip_value": 200
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_3": true
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:17,559 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-1] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2900,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 3200
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:19,511 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2900,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "active"
+				},
+				"weapon_3": {
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:20,152 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2900,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "holstered"
+				},
+				"weapon_3": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:21,044 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-4] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2900,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "active"
+				},
+				"weapon_3": {
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:23,392 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-5] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 100,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2900,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 28,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_3": {
+					"ammo_clip": 30
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:24,024 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-6] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2900,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 21,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"health": 100
+			},
+			"weapons": {
+				"weapon_3": {
+					"ammo_clip": 28
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:24,659 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-7] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2900,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 20,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_3": {
+					"ammo_clip": 21
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:25,290 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-8] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2900,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 13,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_3": {
+					"ammo_clip": 20
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:25,942 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-9] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2900,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 8,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_3": {
+					"ammo_clip": 13
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:26,581 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-10] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2900,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 1,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_3": {
+					"ammo_clip": 8
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:27,223 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-1] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 0,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 2900
+			},
+			"weapons": {
+				"weapon_0": {
+					"state": "holstered"
+				},
+				"weapon_3": {
+					"ammo_clip": 1,
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:27,854 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 0,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "active"
+				},
+				"weapon_1": {
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:28,964 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 0,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 120,
+				"state": "reloading"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 0,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:29,887 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-4] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "reloading"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 0,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"ammo_clip": 0,
+					"ammo_reserve": 120
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:30,559 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-5] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 0,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"state": "reloading"
+				},
+				"weapon_3": {
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:31,183 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-6] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 0,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 90,
+				"state": "reloading"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_3": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:32,212 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-7] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 60,
+				"state": "reloading"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_3": {
+					"ammo_clip": 0,
+					"ammo_reserve": 90
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:33,962 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-8] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 30,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 60,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_3": {
+					"state": "reloading"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:34,625 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-9] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 29,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 60,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_3": {
+					"ammo_clip": 30
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:35,262 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-10] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 26,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 60,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_3": {
+					"ammo_clip": 29
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:35,906 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-1] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 21,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 60,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_3": {
+					"ammo_clip": 26
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:36,546 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2300,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 18,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 60,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 2600
+			},
+			"weapons": {
+				"weapon_3": {
+					"ammo_clip": 21
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:37,172 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2300,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "active"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 18,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 60,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_1": {
+					"state": "holstered"
+				},
+				"weapon_3": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:37,814 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-4] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2300,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "holstered"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 18,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 60,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "holstered"
+				},
+				"weapon_1": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:39,448 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-5] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2300,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_c4",
+				"paintkit": "default",
+				"type": "C4",
+				"state": "active"
+			},
+			"weapon_3": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 18,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 60,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "active"
+				},
+				"weapon_2": {
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:43,782 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-6] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "holstered"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 18,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 60,
+				"state": "active"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"money": 2300
+			},
+			"weapons": {
+				"weapon_2": {
+					"name": "weapon_c4",
+					"type": "C4"
+				},
+				"weapon_3": {
+					"name": "weapon_sg556",
+					"paintkit": "default",
+					"type": "Rifle",
+					"ammo_clip": 18,
+					"ammo_clip_max": 30,
+					"ammo_reserve": 60,
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"added": {
+		"player": {
+			"weapons": {
+				"weapon_2": {
+					"ammo_clip": true,
+					"ammo_clip_max": true,
+					"ammo_reserve": true
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:44,433 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-7] {
+	"round": {
+		"phase": "live"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 18,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 60,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"weapons": {
+				"weapon_0": {
+					"state": "holstered"
+				},
+				"weapon_2": {
+					"state": "active"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:46,218 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-8] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 85,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 18,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 60,
+				"state": "holstered"
+			}
+		}
+	},
+	"added": {
+		"round": {
+			"bomb": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:51,806 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-9] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 75,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 18,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 60,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"health": 85
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:52,430 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-10] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 4,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+			"weapon_0": {
+				"name": "weapon_knife_karambit",
+				"paintkit": "default",
+				"type": "Knife",
+				"state": "active"
+			},
+			"weapon_1": {
+				"name": "weapon_glock",
+				"paintkit": "aa_glock_18_urban_moon_fever",
+				"type": "Pistol",
+				"ammo_clip": 20,
+				"ammo_clip_max": 20,
+				"ammo_reserve": 100,
+				"state": "holstered"
+			},
+			"weapon_2": {
+				"name": "weapon_sg556",
+				"paintkit": "default",
+				"type": "Rifle",
+				"ammo_clip": 18,
+				"ammo_clip_max": 30,
+				"ammo_reserve": 60,
+				"state": "holstered"
+			}
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"health": 75
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:49:53,438 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-1] {
+	"round": {
+		"phase": "live",
+		"bomb": "planted"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 0,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 2600,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+
+		}
+	},
+	"previously": {
+		"player": {
+			"state": {
+				"health": 4
+			},
+			"weapons": {
+				"weapon_0": {
+					"name": "weapon_knife_karambit",
+					"paintkit": "default",
+					"type": "Knife",
+					"state": "active"
+				},
+				"weapon_1": {
+					"name": "weapon_glock",
+					"paintkit": "aa_glock_18_urban_moon_fever",
+					"type": "Pistol",
+					"ammo_clip": 20,
+					"ammo_clip_max": 20,
+					"ammo_reserve": 100,
+					"state": "holstered"
+				},
+				"weapon_2": {
+					"name": "weapon_sg556",
+					"paintkit": "default",
+					"type": "Rifle",
+					"ammo_clip": 18,
+					"ammo_clip_max": 30,
+					"ammo_reserve": 60,
+					"state": "holstered"
+				}
+			}
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:50:08,016 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-2] {
+	"round": {
+		"phase": "over",
+		"win_team": "CT",
+		"bomb": "defused"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "playing",
+		"state": {
+			"health": 0,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 4800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+
+		}
+	},
+	"previously": {
+		"round": {
+			"phase": "live",
+			"bomb": "planted"
+		},
+		"player": {
+			"state": {
+				"money": 2600
+			}
+		}
+	},
+	"added": {
+		"round": {
+			"win_team": true
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
+2019-10-30 19:50:09,465 INFO ch.olivo.leonardo.csgoRestServer.controller.CsgoController [http-nio-8080-exec-3] {
+	"round": {
+		"phase": "over",
+		"win_team": "CT",
+		"bomb": "defused"
+	},
+	"player": {
+		"steamid": "76561198439766138",
+		"clan": "LAA_Gaming",
+		"name": "?????",
+		"observer_slot": 6,
+		"team": "T",
+		"activity": "textinput",
+		"state": {
+			"health": 0,
+			"armor": 0,
+			"helmet": false,
+			"flashed": 0,
+			"smoked": 0,
+			"burning": 0,
+			"money": 4800,
+			"round_kills": 0,
+			"round_killhs": 0,
+			"equip_value": 2950
+		},
+		"weapons": {
+
+		}
+	},
+	"previously": {
+		"player": {
+			"activity": "playing"
+		}
+	},
+	"auth": {
+		"token": "CCWJu64ZV3JHDT8hZc"
+	}
+}
