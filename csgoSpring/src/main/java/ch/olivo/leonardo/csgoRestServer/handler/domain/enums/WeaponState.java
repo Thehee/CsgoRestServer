@@ -1,4 +1,4 @@
-package ch.olivo.leonardo.csgoRestServer.event_handler.domain.enums;
+package ch.olivo.leonardo.csgoRestServer.handler.domain.enums;
 
 import lombok.Getter;
 
@@ -12,6 +12,6 @@ public enum WeaponState {
 
   public static WeaponState byString(String state) {
     return Arrays.stream(WeaponState.values())
-        .filter(value -> value.name().toLowerCase().equals(state)).findFirst().orElse(null);
+        .filter(value -> value.name().toLowerCase().equals(state.toLowerCase())).findFirst().orElse(null);
   }
 }

@@ -1,4 +1,4 @@
-package ch.olivo.leonardo.csgoRestServer.event_handler.domain;
+package ch.olivo.leonardo.csgoRestServer.handler.domain;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -8,4 +8,5 @@ import lombok.Getter;
 public class CsgoEvent {
   private Player player;
   private Round round;
+//  private Previously previously;
 }

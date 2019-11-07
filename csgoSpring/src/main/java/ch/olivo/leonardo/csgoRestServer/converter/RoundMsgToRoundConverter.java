@@ -1,13 +1,14 @@
 package ch.olivo.leonardo.csgoRestServer.converter;
 
-import ch.olivo.leonardo.csgoRestServer.event_handler.domain.Round;
-import ch.olivo.leonardo.csgoRestServer.event_handler.domain.enums.BombState;
-import ch.olivo.leonardo.csgoRestServer.event_handler.domain.enums.RoundPhase;
-import ch.olivo.leonardo.csgoRestServer.event_handler.domain.enums.WinTeam;
+import ch.olivo.leonardo.csgoRestServer.handler.domain.Round;
+import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.BombState;
+import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.RoundPhase;
+import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.WinTeam;
 import org.springframework.stereotype.Component;
 
 @Component
 public class RoundMsgToRoundConverter {
+
   public Round convert(ch.olivo.leonardo.csgoRestServer.controller.msg.Round round) {
     return Round.builder()
         .phase(RoundPhase.byString(round.getPhase()))

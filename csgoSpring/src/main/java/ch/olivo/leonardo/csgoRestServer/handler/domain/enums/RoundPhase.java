@@ -1,4 +1,4 @@
-package ch.olivo.leonardo.csgoRestServer.event_handler.domain.enums;
+package ch.olivo.leonardo.csgoRestServer.handler.domain.enums;
 
 import java.util.Arrays;
 
