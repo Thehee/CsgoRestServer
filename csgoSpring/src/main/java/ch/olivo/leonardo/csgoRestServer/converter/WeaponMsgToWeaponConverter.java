@@ -18,6 +18,5 @@ public class WeaponMsgToWeaponConverter {
           .build();
     }
     return null;
-  }        // TODO get all type of guns and make an Enum
+  }
 }
-
