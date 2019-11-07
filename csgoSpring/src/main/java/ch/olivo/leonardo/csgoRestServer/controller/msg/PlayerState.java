@@ -10,6 +10,7 @@ public class PlayerState {
   private boolean flashed;
   private boolean smoked;
   private boolean burning;
+  private boolean defusekit;
   private int money;
   private int round_kills;
   private int round_killhs;
