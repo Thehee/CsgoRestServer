@@ -1,4 +1,4 @@
-package ch.olivo.leonardo.csgoRestServer.domain;
+package ch.olivo.leonardo.csgoRestServer.event_handler.domain;
 
 import lombok.Builder;
 import lombok.Getter;

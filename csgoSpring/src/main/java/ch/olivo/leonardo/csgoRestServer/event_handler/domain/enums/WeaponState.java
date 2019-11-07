@@ -1,4 +1,4 @@
-package ch.olivo.leonardo.csgoRestServer.domain.enums;
+package ch.olivo.leonardo.csgoRestServer.event_handler.domain.enums;
 
 import lombok.Getter;
 

@@ -1,7 +1,7 @@
 package ch.olivo.leonardo.csgoRestServer.converter;
 
 import ch.olivo.leonardo.csgoRestServer.controller.msg.Weapons;
-import ch.olivo.leonardo.csgoRestServer.domain.Weapon;
+import ch.olivo.leonardo.csgoRestServer.event_handler.domain.Weapon;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

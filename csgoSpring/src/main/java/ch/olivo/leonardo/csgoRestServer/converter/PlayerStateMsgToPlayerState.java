@@ -1,6 +1,6 @@
 package ch.olivo.leonardo.csgoRestServer.converter;
 
-import ch.olivo.leonardo.csgoRestServer.domain.PlayerState;
+import ch.olivo.leonardo.csgoRestServer.event_handler.domain.PlayerState;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -1,9 +1,9 @@
 package ch.olivo.leonardo.csgoRestServer.converter;
 
-import ch.olivo.leonardo.csgoRestServer.domain.Round;
-import ch.olivo.leonardo.csgoRestServer.domain.enums.BombState;
-import ch.olivo.leonardo.csgoRestServer.domain.enums.RoundPhase;
-import ch.olivo.leonardo.csgoRestServer.domain.enums.WinTeam;
+import ch.olivo.leonardo.csgoRestServer.event_handler.domain.Round;
+import ch.olivo.leonardo.csgoRestServer.event_handler.domain.enums.BombState;
+import ch.olivo.leonardo.csgoRestServer.event_handler.domain.enums.RoundPhase;
+import ch.olivo.leonardo.csgoRestServer.event_handler.domain.enums.WinTeam;
 import org.springframework.stereotype.Component;
 
 @Component

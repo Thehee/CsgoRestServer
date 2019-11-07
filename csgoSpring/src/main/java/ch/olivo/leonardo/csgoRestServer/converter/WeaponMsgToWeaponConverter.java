@@ -1,8 +1,8 @@
 package ch.olivo.leonardo.csgoRestServer.converter;
 
-import ch.olivo.leonardo.csgoRestServer.domain.Weapon;
-import ch.olivo.leonardo.csgoRestServer.domain.enums.WeaponState;
-import ch.olivo.leonardo.csgoRestServer.domain.enums.WeaponType;
+import ch.olivo.leonardo.csgoRestServer.event_handler.domain.Weapon;
+import ch.olivo.leonardo.csgoRestServer.event_handler.domain.enums.WeaponState;
+import ch.olivo.leonardo.csgoRestServer.event_handler.domain.enums.WeaponType;
 import org.springframework.stereotype.Component;
 
 @Component
