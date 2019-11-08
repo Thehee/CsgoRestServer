@@ -3,7 +3,7 @@ package ch.olivo.leonardo.csgoRestServer.converter;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.Round;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.BombState;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.RoundPhase;
-import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.WinTeam;
+import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.Team;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -13,7 +13,7 @@ public class RoundMsgToRoundConverter {
     return Round.builder()
         .phase(RoundPhase.byString(round.getPhase()))
         .bomb(BombState.byString(round.getBomb()))
-        .win_team(WinTeam.byString(round.getWin_team()))
+        .win_team(Team.byString(round.getWin_team()))
         .build();
   }
 }
