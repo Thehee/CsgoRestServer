@@ -23,6 +23,6 @@ public enum Team {
 
   public static Team byString(String state) {
     return Arrays.stream(Team.values())
-        .filter(value -> value.name().toLowerCase().equals(state)).findFirst().orElse(null);
+        .filter(value -> value.name().equals(state)).findFirst().orElse(null);
   }
 }

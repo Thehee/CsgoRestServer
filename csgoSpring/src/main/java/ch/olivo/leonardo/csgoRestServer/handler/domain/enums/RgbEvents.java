@@ -97,7 +97,7 @@ public enum RgbEvents {
 
     for (Weapon weapon : weapons) {
       if (weapon.getWeaponState().isActive() && weapon.getGrenadeType() != null) {
-        weapon.getGrenadeType().asRgbEvent();
+        return weapon.getGrenadeType().asRgbEvent();
       }
     }
 
@@ -113,6 +113,7 @@ public enum RgbEvents {
     } else if (round.getPhase() == RoundPhase.OVER) {
 
       events.add(bombEvent(round.getBomb()));
+
       if (round.getWin_team() != null) {
         events.add(winnerTeam(round.getWin_team(), team));
       }
