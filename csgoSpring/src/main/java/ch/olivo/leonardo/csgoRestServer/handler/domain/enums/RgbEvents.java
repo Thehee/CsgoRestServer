@@ -5,19 +5,27 @@ import ch.olivo.leonardo.csgoRestServer.handler.domain.CsgoEvent;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.Round;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.Weapon;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 
+/**
+ * ugly enum
+ */
 @AllArgsConstructor
+@Getter
 public enum RgbEvents {
 
 
   DAMAGE(1, new ColorEvent(new Color(195, 16, 26), null, ColorEventType.BLINKING)),
-  EXPLOADED(2, new ColorEvent(new Color(195, 72, 8), new Color(195, 57, 28), ColorEventType.THREELEDSTRING)),
-  DEFUSED(2, new ColorEvent(new Color(50, 85, 195), new Color(33, 140, 195), ColorEventType.BLINKING)),
+  EXPLOADED(2, new ColorEvent(new Color(195, 72, 8), new Color(195, 57, 28),
+      ColorEventType.THREELEDSTRING)),
+  DEFUSED(2, new ColorEvent(new Color(50, 85, 195), new Color(33, 140, 195),
+      ColorEventType.BLINKING)),
   ROUNDOVERWIN(3, new ColorEvent(new Color(19, 178, 45), null, ColorEventType.BLINKING)),
   ROUNDOVERLOST(3, new ColorEvent(new Color(195, 28, 83), null, ColorEventType.DEFAULT)),
   BURNING(4, new ColorEvent(new Color(252, 82, 51), new Color(195, 28, 83),
@@ -43,8 +51,15 @@ public enum RgbEvents {
   private final int priority;
   private final ColorEvent colorEvent;
 
+  // ----------------------------- rgb event collector
+  // TODO REFACTOR PLEASE IT LOOKS DISGUSTING. Update 1: looks a little better
+  // TODO add damage and shooting when previously is implemented.
 
-  // TODO REFACTOR PLEASE IT LOOKS DISGUSTING
+  /**
+   * returns the event that should be ran
+   * @param event
+   * @return RgbEvent
+   */
   public RgbEvents defineEvent(CsgoEvent event) {
     List<RgbEvents> eventsList = new ArrayList<>();
 
@@ -66,18 +81,30 @@ public enum RgbEvents {
 
     eventsList.add(team(event.getPlayer().getTeam()));
 
+    eventsList.removeAll(Collections.singleton(null));
+
+    if (eventsList.size() != 0) {
+      return sortListByPriority(eventsList).get(0);
+    }
+
     return null;
   }
 
+  // ----------------------------- rgb event definer classes
+
+  // returns the active nade if there is any
   private RgbEvents activeNade(List<Weapon> weapons) {
+
     for (Weapon weapon : weapons) {
       if (weapon.getWeaponState().isActive()) {
         weapon.getGrenadeType().asRgbEvent();
       }
     }
+
     return null;
   }
 
+  // returns a list of events depending on the round phase
   private List<RgbEvents> roundPhases(Round round, Team team) {
     List<RgbEvents> events = new ArrayList<>();
     if (round.getPhase() == RoundPhase.FREEZETIME) {
@@ -118,5 +145,35 @@ public enum RgbEvents {
       return RgbEvents.ROUNDOVERLOST;
     }
 
+  }
+
+  // ----------------------------- sorting
+
+  // TODO check if there is a better way to sort this
+  private List<RgbEvents> sortListByPriority(List<RgbEvents> srcList) {
+    List<RgbEvents> sortedList = new ArrayList<>();
+    int highestPriority = getHighestPriority(srcList);
+
+    for (int i = 0; i <= highestPriority; i++) {
+      for (RgbEvents event : srcList) {
+        if (event.getPriority() == i) {
+          sortedList.add(event);
+        }
+      }
+    }
+
+    return sortedList;
+  }
+
+  private int getHighestPriority(List<RgbEvents> list) {
+    int highestPriority = 0;
+
+    for (RgbEvents event : list) {
+      if (highestPriority < event.getPriority()) {
+        highestPriority = event.getPriority();
+      }
+    }
+
+    return highestPriority;
   }
 }
