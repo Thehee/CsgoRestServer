@@ -14,4 +14,9 @@ public enum WeaponState {
     return Arrays.stream(WeaponState.values())
         .filter(value -> value.name().toLowerCase().equals(state.toLowerCase())).findFirst().orElse(null);
   }
+
+  public boolean isActive() {
+    return this == WeaponState.ACTIVE;
+  }
+
 }

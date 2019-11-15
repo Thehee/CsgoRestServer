@@ -2,6 +2,7 @@ package ch.olivo.leonardo.csgoRestServer.handler.domain.enums;
 
 import ch.olivo.leonardo.csgoRestServer.handler.domain.ColorEvent;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.CsgoEvent;
+import ch.olivo.leonardo.csgoRestServer.handler.domain.Round;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.Weapon;
 import lombok.AllArgsConstructor;
 
@@ -59,76 +60,63 @@ public enum RgbEvents {
       eventsList.add(RgbEvents.SMOKED);
     }
 
-    for (Weapon weapon : event.getPlayer().getWeapons()) {
-      if (weapon.getWeaponState() == WeaponState.ACTIVE) {
-        switch (weapon.getGrenadeType()) {
-          case HE:
-            eventsList.add(RgbEvents.HE);
-            break;
-          case DECOY:
-            eventsList.add(RgbEvents.DECOY);
-            break;
-          case SMOKE:
-            eventsList.add(RgbEvents.SMOKE);
-            break;
-          case MOLOTOV:
-            eventsList.add(RgbEvents.MOLOTOV);
-            break;
-          case FLASHBANG:
-            eventsList.add(RgbEvents.FLASHBANG);
-        }
+    eventsList.add(activeNade(event.getPlayer().getWeapons()));
+
+    eventsList.addAll(roundPhases(event.getRound(), event.getPlayer().getTeam()));
+
+    eventsList.add(team(event.getPlayer().getTeam()));
+
+    return null;
+  }
+
+  private RgbEvents activeNade(List<Weapon> weapons) {
+    for (Weapon weapon : weapons) {
+      if (weapon.getWeaponState().isActive()) {
+        weapon.getGrenadeType().asRgbEvent();
       }
-    }
-
-    if (event.getRound().getPhase() == RoundPhase.FREEZETIME) {
-      eventsList.add(RgbEvents.FREEZTIME);
-
-    } else if (event.getRound().getPhase() == RoundPhase.OVER) {
-
-      switch (event.getRound().getWin_team()) {
-
-        case T:
-          if (event.getPlayer().getTeam() == Team.T) {
-            eventsList.add(RgbEvents.ROUNDOVERWIN);
-          } else {
-            eventsList.add(RgbEvents.ROUNDOVERLOST);
-          }
-          break;
-
-        case CT:
-          if (event.getPlayer().getTeam() == Team.CT) {
-            eventsList.add(RgbEvents.ROUNDOVERWIN);
-          } else {
-            eventsList.add(RgbEvents.ROUNDOVERLOST);
-          }
-          break;
-
-      }
-
-      if (event.getRound().getBomb() != null) {
-        switch (event.getRound().getBomb()) {
-          case DEFUSED:
-            eventsList.add(RgbEvents.DEFUSED);
-            break;
-          case EXPLODED:
-            eventsList.add(RgbEvents.EXPLOADED);
-            break;
-        }
-      }
-
-    } else if (event.getRound().getPhase() == RoundPhase.LIVE)
-      if (event.getRound().getBomb() != null && event.getRound().getBomb() == BombState.PLANTED) {
-        eventsList.add(RgbEvents.PLANTED);
-      }
-
-    switch (event.getPlayer().getTeam()) {
-      case CT:
-        eventsList.add(RgbEvents.CT);
-        break;
-      case T:
-        eventsList.add(RgbEvents.T);
-        break;
     }
     return null;
+  }
+
+  private List<RgbEvents> roundPhases(Round round, Team team) {
+    List<RgbEvents> events = new ArrayList<>();
+    if (round.getPhase() == RoundPhase.FREEZETIME) {
+      events.add(RgbEvents.FREEZTIME);
+
+    } else if (round.getPhase() == RoundPhase.OVER) {
+
+      events.add(bombEvent(round.getBomb()));
+      if (round.getWin_team() != null) {
+        events.add(winnerTeam(round.getWin_team(), team));
+      }
+    } else if (round.getPhase() == RoundPhase.LIVE) {
+      if (round.getBomb() != null) {
+        events.add(round.getBomb().asRgbEvent());
+      }
+    }
+    return events;
+  }
+
+  // returns the bomb state
+  private RgbEvents bombEvent(BombState bombState) {
+    return bombState.asRgbEvent();
+  }
+
+  // defines the team of the player and returns the RGB event
+  private RgbEvents team(Team team) {
+
+    return team.asRgbEvent();
+
+  }
+
+  // defines the winner team and returns the rgb event
+  private RgbEvents winnerTeam(Team winTeam, Team team) {
+
+    if (winTeam == team) {
+      return RgbEvents.ROUNDOVERWIN;
+    } else {
+      return RgbEvents.ROUNDOVERLOST;
+    }
+
   }
 }
