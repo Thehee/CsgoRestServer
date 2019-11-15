@@ -60,7 +60,7 @@ public enum RgbEvents {
    * @param event
    * @return RgbEvent
    */
-  public RgbEvents defineEvent(CsgoEvent event) {
+  public static RgbEvents defineEvent(CsgoEvent event) {
     List<RgbEvents> eventsList = new ArrayList<>();
 
     if (event.getPlayer().getPlayerState().isBurning()) {
@@ -93,10 +93,10 @@ public enum RgbEvents {
   // ----------------------------- rgb event definer classes
 
   // returns the active nade if there is any
-  private RgbEvents activeNade(List<Weapon> weapons) {
+  private static RgbEvents activeNade(List<Weapon> weapons) {
 
     for (Weapon weapon : weapons) {
-      if (weapon.getWeaponState().isActive()) {
+      if (weapon.getWeaponState().isActive() && weapon.getGrenadeType() != null) {
         weapon.getGrenadeType().asRgbEvent();
       }
     }
@@ -105,7 +105,7 @@ public enum RgbEvents {
   }
 
   // returns a list of events depending on the round phase
-  private List<RgbEvents> roundPhases(Round round, Team team) {
+  private static List<RgbEvents> roundPhases(Round round, Team team) {
     List<RgbEvents> events = new ArrayList<>();
     if (round.getPhase() == RoundPhase.FREEZETIME) {
       events.add(RgbEvents.FREEZTIME);
@@ -125,19 +125,26 @@ public enum RgbEvents {
   }
 
   // returns the bomb state
-  private RgbEvents bombEvent(BombState bombState) {
-    return bombState.asRgbEvent();
+  private static RgbEvents bombEvent(BombState bombState) {
+    if (bombState != null) {
+
+      return bombState.asRgbEvent();
+    }
+    return null;
   }
 
   // defines the team of the player and returns the RGB event
-  private RgbEvents team(Team team) {
+  private static RgbEvents team(Team team) {
+    if (team != null) {
 
-    return team.asRgbEvent();
+      return team.asRgbEvent();
+    }
 
+    return null;
   }
 
   // defines the winner team and returns the rgb event
-  private RgbEvents winnerTeam(Team winTeam, Team team) {
+  private static RgbEvents winnerTeam(Team winTeam, Team team) {
 
     if (winTeam == team) {
       return RgbEvents.ROUNDOVERWIN;
@@ -150,7 +157,7 @@ public enum RgbEvents {
   // ----------------------------- sorting
 
   // TODO check if there is a better way to sort this
-  private List<RgbEvents> sortListByPriority(List<RgbEvents> srcList) {
+  private static List<RgbEvents> sortListByPriority(List<RgbEvents> srcList) {
     List<RgbEvents> sortedList = new ArrayList<>();
     int highestPriority = getHighestPriority(srcList);
 
@@ -165,7 +172,7 @@ public enum RgbEvents {
     return sortedList;
   }
 
-  private int getHighestPriority(List<RgbEvents> list) {
+  private static int getHighestPriority(List<RgbEvents> list) {
     int highestPriority = 0;
 
     for (RgbEvents event : list) {

@@ -5,6 +5,7 @@ import ch.olivo.leonardo.csgoRestServer.converter.CsgoEventRequestToCsgoEventCon
 import ch.olivo.leonardo.csgoRestServer.handler.domain.CsgoEvent;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.Weapon;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.GrenadeType;
+import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.RgbEvents;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.WeaponState;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -35,7 +36,8 @@ public class EventHandler {
 
   public void handleEvent(CsgoEventRequest eventRequest) {
     CsgoEvent csgoEvent = convert(eventRequest);
-    System.out.println(activeGrenade(csgoEvent.getPlayer().getWeapons()));
+    System.out.println(RgbEvents.defineEvent(csgoEvent));
+//    System.out.println(activeGrenade(csgoEvent.getPlayer().getWeapons()));
 
   }
 
