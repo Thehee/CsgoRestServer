@@ -28,5 +28,6 @@ public enum WeaponType {
     return Arrays.stream(WeaponType.values()).filter(value -> value.name().toLowerCase()
         .equals(finalModifiedType)).findFirst().orElse(Arrays.stream(WeaponType.values())
         .filter(value -> name.contains(value.name().toLowerCase())).findFirst().orElse(null));
+
   }
 }

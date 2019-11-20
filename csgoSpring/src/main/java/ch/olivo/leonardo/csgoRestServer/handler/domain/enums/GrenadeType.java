@@ -5,37 +5,37 @@ import java.util.Arrays;
 public enum GrenadeType {
   FLASHBANG {
     @Override
-    public RgbEvents asRgbEvent() {
-      return RgbEvents.FLASHBANG;
+    public RgbEvent asRgbEvent() {
+      return RgbEvent.FLASHBANG;
     }
   },
   MOLOTOV {
     @Override
-    public RgbEvents asRgbEvent() {
-      return RgbEvents.MOLOTOV;
+    public RgbEvent asRgbEvent() {
+      return RgbEvent.MOLOTOV;
     }
   },
   HE {
     @Override
-    public RgbEvents asRgbEvent() {
-      return RgbEvents.HE;
+    public RgbEvent asRgbEvent() {
+      return RgbEvent.HE;
     }
   },
   DECOY {
     @Override
-    public RgbEvents asRgbEvent() {
-      return RgbEvents.DECOY;
+    public RgbEvent asRgbEvent() {
+      return RgbEvent.DECOY;
     }
   },
   SMOKE {
     @Override
-    public RgbEvents asRgbEvent() {
-      return RgbEvents.SMOKE;
+    public RgbEvent asRgbEvent() {
+      return RgbEvent.SMOKE;
     }
   };
 
   // default
-  public RgbEvents asRgbEvent() {
+  public RgbEvent asRgbEvent() {
     return null;
   }
 

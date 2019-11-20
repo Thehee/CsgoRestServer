@@ -5,25 +5,25 @@ import java.util.Arrays;
 public enum BombState {
   EXPLODED {
     @Override
-    public RgbEvents asRgbEvent() {
-      return RgbEvents.EXPLOADED;
+    public RgbEvent asRgbEvent() {
+      return RgbEvent.EXPLOADED;
     }
   },
   PLANTED {
     @Override
-    public RgbEvents asRgbEvent() {
-      return RgbEvents.PLANTED;
+    public RgbEvent asRgbEvent() {
+      return RgbEvent.PLANTED;
     }
   },
   DEFUSED {
     @Override
-    public RgbEvents asRgbEvent() {
-      return RgbEvents.DEFUSED;
+    public RgbEvent asRgbEvent() {
+      return RgbEvent.DEFUSED;
     }
   };
 
   // default
-  public RgbEvents asRgbEvent() {
+  public RgbEvent asRgbEvent() {
     return null;
   }
 

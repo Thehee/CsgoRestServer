@@ -5,19 +5,19 @@ import java.util.Arrays;
 public enum Team {
   T {
     @Override
-    public RgbEvents asRgbEvent() {
-      return RgbEvents.T;
+    public RgbEvent asRgbEvent() {
+      return RgbEvent.T;
     }
   },
   CT {
     @Override
-    public RgbEvents asRgbEvent() {
-      return RgbEvents.CT;
+    public RgbEvent asRgbEvent() {
+      return RgbEvent.CT;
     }
   },;
 
   // default
-  public RgbEvents asRgbEvent() {
+  public RgbEvent asRgbEvent() {
     return null;
   }
 
