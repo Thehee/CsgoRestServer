@@ -4,11 +4,11 @@ import lombok.Getter;
 
 @Getter
 public class CsgoEventRequest {
-  private Provider provider;
-  private Map map;
-  private Round round;
-  private Player player;
+  private ProviderMsg provider;
+  private MapMsg map;
+  private RoundMsg round;
+  private PlayerMsg player;
   private Added added;
-  private Auth auth;
-  private Previously previously;
+  private AuthMsg auth;
+  private PreviouslyMsg previously;
 }

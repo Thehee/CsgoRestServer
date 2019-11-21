@@ -1,6 +1,7 @@
 package ch.olivo.leonardo.csgoRestServer.service;
 
 import ch.olivo.leonardo.csgoRestServer.handler.domain.CsgoEvent;
+import ch.olivo.leonardo.csgoRestServer.handler.domain.Player;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.Round;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.Weapon;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.BombState;
@@ -14,7 +15,7 @@ import java.util.List;
 
 @Service
 public class RgbEventService {
-  
+
   // ----------------------------- rgb event collector
   // TODO REFACTOR PLEASE IT LOOKS DISGUSTING. Update 1: looks a little better
   // TODO add damage and shooting when previously is implemented.
@@ -44,6 +45,10 @@ public class RgbEventService {
     eventsList.addAll(roundPhases(event.getRound(), event.getPlayer().getTeam()));
 
     eventsList.add(team(event.getPlayer().getTeam()));
+
+    eventsList.add(damageTaken(event.getPlayer(), event.getPreviously().getPlayer()));
+
+    eventsList.add(shotsFired(event.getPlayer(), event.getPreviously().getPlayer()));
 
     eventsList.removeAll(Collections.singleton(null));
 
@@ -127,9 +132,79 @@ public class RgbEventService {
     }
   }
 
+  // defines if damage has been taken
+  private RgbEvent damageTaken(Player player, Player previouslyPlayer) {
+    if (previouslyPlayer == null || previouslyPlayer.getPlayerState() == null) {
+      return null;
+    }
+
+    if (player.getPlayerState().getHealth() < previouslyPlayer.getPlayerState().getHealth()) {
+      return RgbEvent.DAMAGE;
+    }
+    return null;
+  }
+
+  // returns the right event if a shot has been fired
+  private RgbEvent shotsFired(Player player, Player previouslyPlayer) {
+    if (previouslyPlayer == null || previouslyPlayer.getWeapons() == null || previouslyPlayer.getWeapons().size() != 1
+        || previouslyPlayer.getWeapons().get(0).getAmmo_clip() == null
+        ) {
+      return null;
+    }
+
+    Weapon affectedWeapon = findByIndex(player.getWeapons(), previouslyPlayer.getWeapons().get(0));
+    Weapon previouslyWeapon = previouslyPlayer.getWeapons().get(0);
+
+    if (affectedWeapon == null || previouslyWeapon.getAmmo_clip() == null) {
+      return null;
+    }
+
+    if (hasShot(affectedWeapon, previouslyWeapon)) {
+      return defineEventByType(affectedWeapon);
+    }
+
+    return null;
+}
+
+  // checks if the gun was shot
+  private boolean hasShot(Weapon weapon, Weapon previouslyWeapon) {
+    return previouslyWeapon.getAmmo_clip() > weapon.getAmmo_clip();
+  }
+
+  // defines the event from the type of gun
+  private RgbEvent defineEventByType(Weapon weapon) {
+    switch (weapon.getType()) {
+      case RIFLE:
+      case PISTOL:
+        return RgbEvent.MEDIUMLINE;
+      case SHOTGUN:
+      case SNIPERRIFLE:
+        return RgbEvent.LONGLINE;
+      case MACHINEGUN:
+      case SUBMACHINEGUN:
+        return RgbEvent.SHORTLINE;
+      case TASER:
+        return RgbEvent.TASERSHOT;
+      default:
+        return null;
+    }
+  }
+
+  // finds the right weapon by the index of the previously weapon
+  private Weapon findByIndex(List<Weapon> weapons, Weapon previouslyWeapon) {
+    int index = previouslyWeapon.getIndex();
+
+    for (Weapon weapon : weapons) {
+      if (weapon.getIndex() == index) {
+        return weapon;
+      }
+    }
+    return null;
+  }
+
   // ----------------------------- sorting
 
-  // TODO check if there is a better way to sort this
+  // sorts the list by the priority of the events
   private List<RgbEvent> sortListByPriority(List<RgbEvent> srcList) {
     List<RgbEvent> sortedList = new ArrayList<>();
     int highestPriority = getHighestPriority(srcList);
@@ -145,6 +220,7 @@ public class RgbEventService {
     return sortedList;
   }
 
+  // gets the highest priority from hte list of events
   private int getHighestPriority(List<RgbEvent> list) {
     int highestPriority = 0;
 

@@ -7,7 +7,7 @@ import java.sql.Time;
 
 
 @Getter
-public class Provider {
+public class ProviderMsg {
   private String name;
   private int appId;
   private String steamId;

@@ -18,6 +18,11 @@ public enum WeaponType {
   SUBMACHINEGUN;
 
   public static WeaponType byString(String type, String name) {
+
+    if (name == null) {
+      return null;
+    }
+
     String modifiedType = "";
 
     if (!StringUtils.isEmpty(type)) {
@@ -28,6 +33,5 @@ public enum WeaponType {
     return Arrays.stream(WeaponType.values()).filter(value -> value.name().toLowerCase()
         .equals(finalModifiedType)).findFirst().orElse(Arrays.stream(WeaponType.values())
         .filter(value -> name.contains(value.name().toLowerCase())).findFirst().orElse(null));
-
   }
 }

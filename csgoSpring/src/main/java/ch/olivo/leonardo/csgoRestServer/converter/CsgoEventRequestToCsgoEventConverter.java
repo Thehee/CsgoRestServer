@@ -21,7 +21,7 @@ public class CsgoEventRequestToCsgoEventConverter {
     return CsgoEvent.builder()
         .player(playerConverter.convert(csgoEventRequest.getPlayer()))
         .round(roundConverter.convert(csgoEventRequest.getRound()))
-//        .previously(previouslyConverter.converter(csgoEventRequest.getPreviously()))
+        .previously(previouslyConverter.converter(csgoEventRequest.getPreviously()))
         .build();
   }
 }

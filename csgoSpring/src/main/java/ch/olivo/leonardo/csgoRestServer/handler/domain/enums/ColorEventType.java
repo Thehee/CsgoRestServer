@@ -2,10 +2,10 @@ package ch.olivo.leonardo.csgoRestServer.handler.domain.enums;
 
 public enum ColorEventType {
   FLASH,
-  THREELEDSTRING,
-  FOURLEDSTRING,
-  TWOLEDSTRING,
+  DEFAULT,
   BLINKING,
-  DEFAULT;
+  TWOLEDSTRING,
+  THREELEDSTRING,
+  FOURLEDSTRING;
 
 }

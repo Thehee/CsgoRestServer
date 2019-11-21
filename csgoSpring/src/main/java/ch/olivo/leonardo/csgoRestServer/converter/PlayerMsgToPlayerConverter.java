@@ -1,5 +1,6 @@
 package ch.olivo.leonardo.csgoRestServer.converter;
 
+import ch.olivo.leonardo.csgoRestServer.controller.msg.PlayerMsg;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.Player;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.Weapon;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.Team;
@@ -17,12 +18,13 @@ public class PlayerMsgToPlayerConverter {
   @Autowired
   private PlayerStateMsgToPlayerState playerStateConverter;
 
-  public Player convert(ch.olivo.leonardo.csgoRestServer.controller.msg.Player player) {
-    List<Weapon> weapons =  weaponListConverter.convert(player.getWeapons());
+  public Player convert(PlayerMsg playerMsg) {
+    List<Weapon> weapons = weaponListConverter.convert(playerMsg.getWeapons());
+
     return Player.builder()
-        .team(Team.byString(player.getTeam()))
+        .team(Team.byString(playerMsg.getTeam()))
         .weapons(weapons)
-        .playerState(playerStateConverter.convert(player.getState()))
+        .playerState(playerStateConverter.convert(playerMsg.getState()))
         .build();
   }
 }

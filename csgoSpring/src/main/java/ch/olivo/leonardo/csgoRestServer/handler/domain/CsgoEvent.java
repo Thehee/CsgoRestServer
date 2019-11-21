@@ -8,5 +8,5 @@ import lombok.Getter;
 public class CsgoEvent {
   private Player player;
   private Round round;
-//  private Previously previously;
+  private Previously previously;
 }

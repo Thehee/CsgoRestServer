@@ -3,6 +3,7 @@ package ch.olivo.leonardo.csgoRestServer.controller.msg;
 import lombok.Getter;
 
 @Getter
-public class Auth {
-  private String token;
+public class PreviouslyMsg {
+  private PlayerMsg player;
+  private RoundMsg round;
 }

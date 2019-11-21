@@ -16,6 +16,7 @@ public class EventHandler {
   @Autowired
   private RgbEventService service;
 
+
   public void handleEvent(CsgoEventRequest eventRequest) {
     CsgoEvent csgoEvent = csgoEventConverter.convert(eventRequest);
     System.out.println(service.defineEvent(csgoEvent));

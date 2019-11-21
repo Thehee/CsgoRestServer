@@ -1,19 +1,23 @@
 package ch.olivo.leonardo.csgoRestServer.converter;
 
+import ch.olivo.leonardo.csgoRestServer.controller.msg.PlayerStateMsg;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.PlayerState;
 import org.springframework.stereotype.Component;
 
 @Component
 public class PlayerStateMsgToPlayerState {
 
-  public PlayerState convert(ch.olivo.leonardo.csgoRestServer.controller.msg.PlayerState playerState) {
+  public PlayerState convert(PlayerStateMsg playerStateMsg) {
+    if (playerStateMsg == null) {
+      return null;
+    }
     return PlayerState.builder()
-        .burning(playerState.isBurning())
-        .flashed(playerState.isFlashed())
-        .smoked(playerState.isSmoked())
-        .health(playerState.getHealth())
-        .round_kills(playerState.getRound_kills())
-        .round_killhs(playerState.getRound_killhs())
+        .burning(playerStateMsg.isBurning())
+        .flashed(playerStateMsg.isFlashed())
+        .smoked(playerStateMsg.isSmoked())
+        .health(playerStateMsg.getHealth())
+        .round_kills(playerStateMsg.getRound_kills())
+        .round_killhs(playerStateMsg.getRound_killhs())
         .build();
   }
 }

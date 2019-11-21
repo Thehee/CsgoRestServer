@@ -1,5 +1,7 @@
 package ch.olivo.leonardo.csgoRestServer.handler.domain.enums;
 
+import org.springframework.util.StringUtils;
+
 import java.util.Arrays;
 
 public enum GrenadeType {
@@ -45,6 +47,10 @@ public enum GrenadeType {
    * @return GrenadeType
    */
   public static GrenadeType byName(String name) {
+    if (StringUtils.isEmpty(name)) {
+      return null;
+    }
+
     String modifiedName = name.replace("weapon_", "").replace("grenade", "");
 
     if (modifiedName.equals("inc")) {

@@ -3,7 +3,7 @@ package ch.olivo.leonardo.csgoRestServer.controller.msg;
 import lombok.Getter;
 
 @Getter
-public class PlayerState {
+public class PlayerStateMsg {
   private int health;
   private int armor;
   private boolean helmet;

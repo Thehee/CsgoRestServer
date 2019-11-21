@@ -9,6 +9,7 @@ import lombok.Getter;
 @Getter
 @Builder
 public class Weapon {
+  private int index;
   private String name;
   private WeaponType type;
   private GrenadeType grenadeType;
