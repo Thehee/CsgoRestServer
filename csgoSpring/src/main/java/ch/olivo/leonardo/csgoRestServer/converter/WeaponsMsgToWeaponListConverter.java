@@ -40,4 +40,6 @@ public class WeaponsMsgToWeaponListConverter {
 
     return weapons;
   }
+
+
 }

@@ -148,7 +148,7 @@ public class RgbEventService {
   private RgbEvent shotsFired(Player player, Player previouslyPlayer) {
     if (previouslyPlayer == null || previouslyPlayer.getWeapons() == null || previouslyPlayer.getWeapons().size() != 1
         || previouslyPlayer.getWeapons().get(0).getAmmo_clip() == null
-        ) {
+    ) {
       return null;
     }
 
@@ -164,7 +164,7 @@ public class RgbEventService {
     }
 
     return null;
-}
+  }
 
   // checks if the gun was shot
   private boolean hasShot(Weapon weapon, Weapon previouslyWeapon) {
@@ -231,5 +231,18 @@ public class RgbEventService {
     }
 
     return highestPriority;
+  }
+
+
+  //----------------------------- bytes
+
+  public byte[] hexStringToByteArray(String s) {
+    byte[] b = new byte[s.length() / 2];
+    for (int i = 0; i < b.length; i++) {
+      int index = i * 2;
+      int v = Integer.parseInt(s.substring(index, index + 2), 16);
+      b[i] = (byte) v;
+    }
+    return b;
   }
 }

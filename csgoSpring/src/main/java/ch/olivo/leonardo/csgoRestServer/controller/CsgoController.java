@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.net.PortUnreachableException;
+
 
 @RestController
 @RequestMapping(path = "/")
@@ -30,7 +32,7 @@ public class CsgoController {
 
   @RequestMapping(path = "/api2", method = RequestMethod.POST)
   @ResponseBody
-  public ResponseEntity<Void> handleEvent(@RequestBody CsgoEventRequest csgoEventRequest) {
+  public ResponseEntity<Void> handleEvent(@RequestBody CsgoEventRequest csgoEventRequest) throws PortUnreachableException {
 //    System.out.println(jsonString);
     csgoEvent.handleEvent(csgoEventRequest);
     log.info("nice");
