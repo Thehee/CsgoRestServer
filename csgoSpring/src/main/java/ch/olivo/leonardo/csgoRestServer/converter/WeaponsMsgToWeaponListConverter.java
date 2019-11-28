@@ -23,7 +23,7 @@ public class WeaponsMsgToWeaponListConverter {
     }
     List<Weapon> weapons = new ArrayList<>();
 
-    // is kinda ugly. still a little ugly but better.
+    // is kinda ugly. UPDATE! still a little ugly but better.
     for (int i = 0; i < 9; i++) {
       try {
         String methodName = "getWeapon_" + i;
@@ -37,9 +37,6 @@ public class WeaponsMsgToWeaponListConverter {
         e.printStackTrace();
       }
     }
-
     return weapons;
   }
-
-
 }

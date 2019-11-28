@@ -8,51 +8,59 @@ import org.springframework.stereotype.Component;
 @Component
 public class PortService {
 
+  /**
+   * This method makes a new instance of the port COM5.
+   * It checks if there is already an instance of a port before it creates a new one.
+   * @param comPort to check if there is already an instance
+   * @return Instanced Port
+   */
+  public SerialPort createPort(SerialPort comPort) {
+    if (comPort != null) {
+      return comPort;
+    }
+    // print out all port names. I have only one (COM5).
+    for (String portName : SerialPortList.getPortNames()) {
+      System.out.println(portName);
+    }
+
+    // new SerialPort which is COM5 in my case
+    return new SerialPort("COM5");
+  }
+
+  /**
+   * This method tries to open a port.
+   * @param comPort the port to open
+   * @return returns the open port
+   */
   public SerialPort openPort(SerialPort comPort) {
-    if (comPort == null) {
 
-      for (String portName : SerialPortList.getPortNames()) {
-        System.out.println(portName);
-      }
-
-      comPort = new SerialPort("COM5");
-
-//      comPort.setComPortTimeouts(SerialPort.TIMEOUT_SCANNER, 0, 0);
-
-      try {
-
-        if (comPort.isOpened()) {
-          comPort.closePort();
-        }
-
-        comPort.openPort();
-
-      } catch (SerialPortException e) {
-        e.printStackTrace();
-      }
-
-      return comPort;
-
-//      comPort.setComPortTimeouts(SerialPort.TIMEOUT_READ_SEMI_BLOCKING, 0, 0);
-    } else if(!comPort.isOpened()) {
+    if (!comPort.isOpened()) {
       try {
         comPort.openPort();
-      } catch (SerialPortException e) {
-        e.printStackTrace();
-      }
-      return comPort;
-    } else {
-      try {
-        comPort.closePort();
-      } catch (SerialPortException e) {
-        e.printStackTrace();
-      }
-      try {
-        comPort.openPort();
+        comPort.setParams(9600,  8, 1, 0);
       } catch (SerialPortException e) {
         e.printStackTrace();
       }
     }
+
     return comPort;
+  }
+
+  /**
+   * This method writes a string, through a port.
+   * @param msg message to write
+   * @param comPort port to write the msg through
+   * @return Answer from Arduino
+   */
+  public byte[] writeString(byte[] msg, SerialPort comPort) {
+    try {
+      // try to send msg over the port.
+      comPort.writeBytes(msg);
+
+      return comPort.readBytes(msg.length + 1);
+    } catch (SerialPortException e) {
+      e.printStackTrace();
+    }
+    return null;
   }
 }

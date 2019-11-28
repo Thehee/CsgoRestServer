@@ -11,7 +11,8 @@ import jssc.SerialPortException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.net.PortUnreachableException;
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 @Component
 public class EventHandler {
@@ -27,20 +28,40 @@ public class EventHandler {
 
   private SerialPort comPort;
 
-  public void handleEvent(CsgoEventRequest eventRequest) throws PortUnreachableException {
+  public void handleEvent(CsgoEventRequest eventRequest) {
+    // convert from msg to domain
     CsgoEvent csgoEvent = csgoEventConverter.convert(eventRequest);
+
+    // filter out the event that should be displayed
     RgbEvent rgbEvent = rgbService.defineEvent(csgoEvent);
     System.out.println(rgbEvent);
 
+    // write "hello" (just testing it)
+//    if (portService.writeString("Hello", comPort)) {
+//      System.out.println("Success");
+//    } else {
+//      System.out.println("Fail");
+//    }
+
+    byte[] response = portService.writeString("hello".getBytes(), comPort);
+    System.out.println(new String(response));
+  }
+
+  @PostConstruct
+  public void openPort() {
+    // instance the port
+    comPort = portService.createPort(comPort);
+
+    // open the Port
     comPort = portService.openPort(comPort);
+  }
 
-    byte[] buffer = rgbService.hexStringToByteArray(String.valueOf(rgbEvent.getColorEvent().getColor().hashCode()));
-
+  @PreDestroy
+  public void closePort() {
     try {
-      comPort.writeBytes("hello".getBytes());
+      comPort.closePort();
     } catch (SerialPortException e) {
       e.printStackTrace();
     }
   }
-
 }
