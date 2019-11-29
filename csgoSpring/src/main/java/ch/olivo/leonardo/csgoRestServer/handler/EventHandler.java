@@ -6,13 +6,9 @@ import ch.olivo.leonardo.csgoRestServer.handler.domain.CsgoEvent;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.RgbEvent;
 import ch.olivo.leonardo.csgoRestServer.service.PortService;
 import ch.olivo.leonardo.csgoRestServer.service.RgbEventService;
-import jssc.SerialPort;
-import jssc.SerialPortException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
 import java.nio.charset.StandardCharsets;
 
 @Component
@@ -27,8 +23,6 @@ public class EventHandler {
   @Autowired
   private PortService portService;
 
-  private SerialPort comPort;
-
   public void handleEvent(CsgoEventRequest eventRequest) {
     // convert from msg to domain
     CsgoEvent csgoEvent = csgoEventConverter.convert(eventRequest);
@@ -37,25 +31,8 @@ public class EventHandler {
     RgbEvent rgbEvent = rgbService.defineEvent(csgoEvent);
     System.out.println(rgbEvent);
 
-    byte[] response = portService.writeString("hello", comPort);
+    byte[] response = portService.writeString("hello");
     System.out.println(new String(response, StandardCharsets.UTF_8));
   }
 
-  @PostConstruct
-  public void openPort() {
-    // instance the port
-    comPort = portService.createPort(comPort);
-
-    // open the Port
-    comPort = portService.openPort(comPort);
-  }
-
-  @PreDestroy
-  public void closePort() {
-    try {
-      comPort.closePort();
-    } catch (SerialPortException e) {
-      e.printStackTrace();
-    }
-  }
 }

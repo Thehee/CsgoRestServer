@@ -5,25 +5,45 @@ import jssc.SerialPortException;
 import jssc.SerialPortList;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 import java.util.ArrayList;
 
 
 @Component
 public class PortService {
 
+  private SerialPort comPort;
   private final byte START_BYTE = 0x7E;
   private final byte END_BYTE = 0x25;
   private final byte ESCAPE_BYTE = 0x3F;
 
+  @PostConstruct
+  public void openPort() {
+    // instance the port
+    createPort();
+
+    // open the Port
+    openThePort();
+  }
+
+  @PreDestroy
+  public void closePort() {
+    try {
+      comPort.closePort();
+    } catch (SerialPortException e) {
+      e.printStackTrace();
+    }
+  }
+
   /**
    * This method makes a new instance of the port COM5.
    * It checks if there is already an instance of a port before it creates a new one.
-   * @param comPort to check if there is already an instance.
-   * @return Instanced Port.
+
    */
-  public SerialPort createPort(SerialPort comPort) {
+  private void createPort() {
     if (comPort != null) {
-      return comPort;
+      return;
     }
     // print out all port names. I have only one (COM5).
     for (String portName : SerialPortList.getPortNames()) {
@@ -31,15 +51,13 @@ public class PortService {
     }
 
     // new SerialPort which is COM5 in my case
-    return new SerialPort("COM5");
+    comPort = new SerialPort("COM5");
   }
 
   /**
    * This method tries to open a port.
-   * @param comPort the port to open.
-   * @return returns the open port.
    */
-  public SerialPort openPort(SerialPort comPort) {
+  private void openThePort() {
 
     if (!comPort.isOpened()) {
       try {
@@ -49,17 +67,14 @@ public class PortService {
         e.printStackTrace();
       }
     }
-
-    return comPort;
   }
 
   /**
    * This method writes a string, through a port.
    * @param msg  message to write.
-   * @param comPort port to write the msg through.
    * @return Answer from Arduino.
    */
-  public byte[] writeString(String msg, SerialPort comPort) {
+  public byte[] writeString(String msg) {
 
     // create a byte array with the msg
     byte[] escapedMsg = createMsg(msg);
