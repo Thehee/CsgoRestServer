@@ -16,6 +16,7 @@ unsigned char END_BYTE = 37;
 unsigned char ESCAPE_BYTE = 63;
 int rawDataLength = 0;
 int readingIndex = 0;
+int descapeDataLength = 0;
 byte rawData[] = {};
 byte descapedData[] = {};
 byte incomingByte;
@@ -90,7 +91,7 @@ bool checkEscaped(byte incomingByte) {
 }
 
 void descapeData() {
-  int descapeDataLength = 0;
+  descapeDataLength = 0;
 
   for (int i = 0; i < rawDataLength; i++) {
     if (!checkEscaped(rawData[i])) {
@@ -106,5 +107,11 @@ void descapeData() {
       descapedData[descapedDataIndex] = rawData[i];
       descapedDataIndex++;
     }
+  }
+}
+
+void writeBytes() {
+  for (int i = 0; i < descapeDataLength; i++) {
+    Serial.print(descapedData[i]);
   }
 }
