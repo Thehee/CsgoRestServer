@@ -37,13 +37,6 @@ public class EventHandler {
     RgbEvent rgbEvent = rgbService.defineEvent(csgoEvent);
     System.out.println(rgbEvent);
 
-    // write "hello" (just testing it)
-//    if (portService.writeString("Hello", comPort)) {
-//      System.out.println("Success");
-//    } else {
-//      System.out.println("Fail");
-//    }
-
     byte[] response = portService.writeString("hello", comPort);
     System.out.println(new String(response, StandardCharsets.UTF_8));
   }
