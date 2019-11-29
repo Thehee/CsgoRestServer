@@ -11,11 +11,24 @@
 */
 
 int led = 13;
-bool receiving = false;
 unsigned char START_BYTE = 126;
 unsigned char END_BYTE = 37;
 unsigned char ESCAPE_BYTE = 63;
-int serialIndex = 0;
+int rawDataLength = 0;
+int readingIndex = 0;
+byte rawData[] = {};
+byte descapedData[] = {};
+byte incomingByte;
+bool nextEscaped = false;
+
+enum state {
+  START,
+  LENGTH,
+  READING,
+  END
+};
+
+state readingState = state::START;
 
 // the setup routine runs once when you press reset:
 void setup() {
@@ -26,47 +39,72 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
-  
   if (Serial.available()) {
-    byte[] rawMsg = Serial.read();
-    if (rawMsg[0] == START_BYTE) {
-      receiving = true;
-    }
-  int i = 0;
-  int dataLength = (int) rawMsg[1];
-  byte[dataLength] escapedMsg;
-  
-  while(receiving) {
-    if (rawMsg[0] = END_BYTE) {
-      receiving = false;
-      continue;
-    }
-    escapedMsg[i] = rawMsg[i];
+    incomingByte = Serial.read();
   }
 
-  int descapedDataLength = 0;
-  
-  for (int i = 0; i < dataLength; i++) {
-    if (escapedMsg[i] == ESCAPE_BYTE) {
-      continue;
-    }
-    descapedDataLength++;
-  }
+  switch (readingState) {
+    case START:
 
-  byte descapedMsg[descapedDataLength];
-  
-  for (int i = 0; i < dataLength; i++) {
-    if (escapedMsg[i] == ESCAPE_BYTE) {
-      continue;
-    }
-    descapedMsg[i] = escapedMsg[i];
-  }
-  
-  for (int i = 0; i < 100; i++) {
-    Serial.println(descapedMsg[i]);
+      if (incomingByte && (incomingByte = START_BYTE)) {
+        readingState = state::LENGTH;
+      }
+      break;
+
+    case LENGTH:
+
+      if (incomingByte) {
+        rawDataLength = (int) incomingByte;
+
+        rawData[rawDataLength];
+        readingState = state::READING;
+      }
+      break;
+
+    case READING:
+
+      if (incomingByte) {
+        if (nextEscaped) {
+          rawData[readingIndex] = incomingByte;
+          nextEscaped = false;
+        } else {
+          if (incomingByte = END_BYTE) {
+            readingState = state::END;
+            break;
+          }
+          nextEscaped = checkEscaped(incomingByte);
+        }
+        rawData[readingIndex] = incomingByte;
+        readingIndex++;
+      }
+      break;
+
+    case END:
+      descapeData();
+      break;
   }
 }
 
-void descape() {
-  
+bool checkEscaped(byte incomingByte) {
+  return incomingByte == ESCAPE_BYTE;
+}
+
+void descapeData() {
+  int descapeDataLength = 0;
+
+  for (int i = 0; i < rawDataLength; i++) {
+    if (!checkEscaped(rawData[i])) {
+      descapeDataLength++;
+    }
+  }
+
+  descapedData[descapeDataLength];
+  int descapedDataIndex = 0;
+
+  for (int i = 0; i < rawDataLength; i++) {
+    if (!checkEscaped(rawData[i])) {
+      descapedData[descapedDataIndex] = rawData[i];
+      descapedDataIndex++;
+    }
+  }
 }
