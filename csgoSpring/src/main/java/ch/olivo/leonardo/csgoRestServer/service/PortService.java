@@ -43,7 +43,7 @@ public class PortService {
     if (!comPort.isOpened()) {
       try {
         comPort.openPort();
-        comPort.setParams(9600,  8, 1, 0);
+        comPort.setParams(9600, 8, 1, 0);
       } catch (SerialPortException e) {
         e.printStackTrace();
       }
@@ -54,18 +54,20 @@ public class PortService {
 
   /**
    * This method writes a string, through a port.
-   * @param msg message to write
+   * @param msg     message to write
    * @param comPort port to write the msg through
    * @return Answer from Arduino
    */
   public byte[] writeString(String msg, SerialPort comPort) {
+
+    // create a byte array with the msg
     byte[] escapedMsg = arrayListToByteArray(createMsg(msg));
 
     try {
       // try to send msg over the port.
       comPort.writeBytes(escapedMsg);
-
       return comPort.readBytes(escapedMsg.length);
+
     } catch (SerialPortException e) {
       e.printStackTrace();
     }
@@ -77,7 +79,7 @@ public class PortService {
     ArrayList<Byte> escapedData = new ArrayList<>();
     byte[] byteMsg = msg.getBytes();
 
-    for (byte stringByte: byteMsg) {
+    for (byte stringByte : byteMsg) {
       rawData.add(stringByte);
     }
 
@@ -93,7 +95,7 @@ public class PortService {
   private ArrayList<Byte> escapeRawData(ArrayList<Byte> rawData) {
     ArrayList<Byte> escapedData = new ArrayList<>();
 
-    for (byte rawByte: rawData) {
+    for (byte rawByte : rawData) {
       if (rawByte == START_BYTE || rawByte == END_BYTE || rawByte == ESCAPE_BYTE) {
         escapedData.add(ESCAPE_BYTE);
       }
