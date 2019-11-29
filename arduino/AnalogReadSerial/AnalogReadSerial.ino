@@ -9,42 +9,64 @@
 
   http://www.arduino.cc/en/Tutorial/AnalogReadSerial
 */
-#include "SerialTransfer.h"
-SerialTransfer transfer;
 
 int led = 13;
+bool receiving = false;
+unsigned char START_BYTE = 126;
+unsigned char END_BYTE = 37;
+unsigned char ESCAPE_BYTE = 63;
+int serialIndex = 0;
 
 // the setup routine runs once when you press reset:
 void setup() {
   // initialize serial communication at 9600 bits per second:
   Serial.begin(9600);
   Serial.setTimeout(100);
-  transfer.begin(Serial);
-  pinMode(led, OUTPUT);
 }
 
 // the loop routine runs over and over again forever:
 void loop() {
   
-  if (transfer.available() > 0) {
-    int dataLength;
-    dataLength = transfer.bytesRead;
-    byte value[dataLength];
-    
-    for (int i = 0; i < dataLength; i++) {
-      value[i] = transfer.rxBuff[i];
+  if (Serial.available()) {
+    byte[] rawMsg = Serial.read();
+    if (rawMsg[0] == START_BYTE) {
+      receiving = true;
     }
-    if (dataLength > 0 && value != NULL && value != "") {
-      digitalWrite(led, HIGH);
-      delay(5000);
-      digitalWrite(led, LOW);
-      delay(1000);   
+  int i = 0;
+  int dataLength = (int) rawMsg[1];
+  byte[dataLength] escapedMsg;
+  
+  while(receiving) {
+    if (rawMsg[0] = END_BYTE) {
+      receiving = false;
+      continue;
     }
-    
-    for (int i = 0; i < dataLength; i++) {
-        transfer.txBuff[i] = value[i];
-    }
-    transfer.txBuff[dataLength] = '/n';
-    transfer.sendData(dataLength + 1);
+    escapedMsg[i] = rawMsg[i];
   }
+
+  int descapedDataLength = 0;
+  
+  for (int i = 0; i < dataLength; i++) {
+    if (escapedMsg[i] == ESCAPE_BYTE) {
+      continue;
+    }
+    descapedDataLength++;
+  }
+
+  byte descapedMsg[descapedDataLength];
+  
+  for (int i = 0; i < dataLength; i++) {
+    if (escapedMsg[i] == ESCAPE_BYTE) {
+      continue;
+    }
+    descapedMsg[i] = escapedMsg[i];
+  }
+  
+  for (int i = 0; i < 100; i++) {
+    Serial.println(descapedMsg[i]);
+  }
+}
+
+void descape() {
+  
 }

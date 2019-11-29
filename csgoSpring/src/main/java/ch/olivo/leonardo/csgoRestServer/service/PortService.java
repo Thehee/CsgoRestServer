@@ -5,8 +5,14 @@ import jssc.SerialPortException;
 import jssc.SerialPortList;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+
 @Component
 public class PortService {
+
+  private final byte START_BYTE = 0x7E;
+  private final byte END_BYTE = 0x25;
+  private final byte ESCAPE_BYTE = 0x3F;
 
   /**
    * This method makes a new instance of the port COM5.
@@ -52,15 +58,58 @@ public class PortService {
    * @param comPort port to write the msg through
    * @return Answer from Arduino
    */
-  public byte[] writeString(byte[] msg, SerialPort comPort) {
+  public byte[] writeString(String msg, SerialPort comPort) {
+    byte[] escapedMsg = arrayListToByteArray(createMsg(msg));
+
     try {
       // try to send msg over the port.
-      comPort.writeBytes(msg);
+      comPort.writeBytes(escapedMsg);
 
-      return comPort.readBytes(msg.length + 1);
+      return comPort.readBytes(escapedMsg.length);
     } catch (SerialPortException e) {
       e.printStackTrace();
     }
     return null;
+  }
+
+  private ArrayList<Byte> createMsg(String msg) {
+    ArrayList<Byte> rawData = new ArrayList<>();
+    ArrayList<Byte> escapedData = new ArrayList<>();
+    byte[] byteMsg = msg.getBytes();
+
+    for (byte stringByte: byteMsg) {
+      rawData.add(stringByte);
+    }
+
+    escapedData.add(START_BYTE);
+    escapedData.addAll(escapeRawData(rawData));
+    byte length = (byte) (escapedData.size() - 1);
+    escapedData.add(1, length);
+    escapedData.add(END_BYTE);
+
+    return escapedData;
+  }
+
+  private ArrayList<Byte> escapeRawData(ArrayList<Byte> rawData) {
+    ArrayList<Byte> escapedData = new ArrayList<>();
+
+    for (byte rawByte: rawData) {
+      if (rawByte == START_BYTE || rawByte == END_BYTE || rawByte == ESCAPE_BYTE) {
+        escapedData.add(ESCAPE_BYTE);
+      }
+      escapedData.add(rawByte);
+    }
+
+    return escapedData;
+  }
+
+  private byte[] arrayListToByteArray(ArrayList<Byte> arrayList) {
+    byte[] bytes = new byte[arrayList.size()];
+
+    for (int i = 0; i < arrayList.size(); i++) {
+      bytes[i] = arrayList.get(i);
+    }
+
+    return bytes;
   }
 }

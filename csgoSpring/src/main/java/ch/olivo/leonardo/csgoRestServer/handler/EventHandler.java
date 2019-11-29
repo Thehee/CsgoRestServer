@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
+import java.nio.charset.StandardCharsets;
 
 @Component
 public class EventHandler {
@@ -43,8 +44,8 @@ public class EventHandler {
 //      System.out.println("Fail");
 //    }
 
-    byte[] response = portService.writeString("hello".getBytes(), comPort);
-    System.out.println(new String(response));
+    byte[] response = portService.writeString("hello", comPort);
+    System.out.println(new String(response, StandardCharsets.UTF_8));
   }
 
   @PostConstruct
