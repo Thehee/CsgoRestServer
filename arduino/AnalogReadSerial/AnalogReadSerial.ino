@@ -10,6 +10,9 @@
   http://www.arduino.cc/en/Tutorial/AnalogReadSerial
 */
 
+
+#include "Logger.h"
+
 int led = 13;
 unsigned char START_BYTE = 126;
 unsigned char END_BYTE = 37;
@@ -21,15 +24,17 @@ byte rawData[] = {};
 byte descapedData[] = {};
 byte incomingByte;
 bool nextEscaped = false;
+bool lastRound = false;
+Logger logger(true);
 
-enum state {
+enum State {
   START,
   LENGTH,
   READING,
   END
 };
 
-state readingState = state::START;
+State readingState = State::START;
 
 // the setup routine runs once when you press reset:
 void setup() {
@@ -40,50 +45,155 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
-  if (Serial.available()) {
+
+  if (Serial.available() > 0) {
+    //logState();
+
+    // read the incoming byte:
     incomingByte = Serial.read();
-  }
 
-  switch (readingState) {
-    case START:
+    // say what you got:
+    // logger.log(incomingByte);
 
-      if (incomingByte && (incomingByte = START_BYTE)) {
-        readingState = state::LENGTH;
-      }
-      break;
+    switch (readingState) {
+      case START:
+        rawData[1] = {};
+        descapedData[1] = {};
+        if (incomingByte == START_BYTE) {
+          readingState = State::LENGTH;
+        }
+        break;
 
-    case LENGTH:
+      case LENGTH:
 
-      if (incomingByte) {
         rawDataLength = (int) incomingByte;
 
         rawData[rawDataLength];
-        readingState = state::READING;
-      }
-      break;
+        readingState = State::READING;
 
-    case READING:
+        break;
 
-      if (incomingByte) {
+      case READING:
+
+        /*        if (incomingByte == END_BYTE) {
+
+                  readingState = State::END;
+                  lastRound = true;
+                  break;
+                }
+        */
+
+
         if (nextEscaped) {
-          rawData[readingIndex] = incomingByte;
+
           nextEscaped = false;
+
         } else {
-          if (incomingByte = END_BYTE) {
-            readingState = state::END;
+
+          if (incomingByte == END_BYTE) {
+
+            readingState = State::END;
+            lastRound = true;
             break;
           }
-          nextEscaped = checkEscaped(incomingByte);
         }
+
+        nextEscaped = checkEscaped(incomingByte);
+
         rawData[readingIndex] = incomingByte;
         readingIndex++;
-      }
-      break;
 
-    case END:
-      descapeData();
-      break;
+        //logger.log(incomingByte);
+
+        break;
+
+      case END:
+        logger.logString("END");
+
+        for (int i = 0; i < rawDataLength; i++) {
+          logger.log(rawData[i]);
+        }
+
+
+        // descapeData();
+
+        // writeBytes();
+
+        readingState = State::START;
+        lastRound = false;
+        break;
+    }
   }
+
+
+  /* if (Serial.available() > 0 || lastRound) {
+    incomingByte = Serial.read();
+
+    switch (readingState) {
+      case START:
+        rawData[1] = {};
+        descapedData[1] = {};
+        if (incomingByte == START_BYTE) {
+          readingState = State::LENGTH;
+        }
+        break;
+
+      case LENGTH:
+
+        rawDataLength = (int) incomingByte;
+
+        rawData[rawDataLength];
+        readingState = State::READING;
+
+        break;
+
+      case READING:
+
+        if (nextEscaped) {
+
+          nextEscaped = false;
+
+          } else {
+
+          if (incomingByte == END_BYTE) {
+
+            readingState = State::END;
+            lastRound = true;
+            break;
+          }
+
+          nextEscaped = checkEscaped(incomingByte);
+          }
+
+        if (incomingByte == END_BYTE) {
+
+          readingState = State::END;
+          lastRound = true;
+          break;
+        }
+
+        rawData[readingIndex] = incomingByte;
+        readingIndex++;
+
+        logger.log(incomingByte);
+
+        break;
+
+      case END:
+
+        logger.logString("END");
+
+        descapeData();
+
+        writeBytes();
+
+        readingState = State::START;
+        lastRound = false;
+        break;
+    }
+
+    incomingByte = NULL;
+    }*/
 }
 
 bool checkEscaped(byte incomingByte) {
@@ -93,6 +203,7 @@ bool checkEscaped(byte incomingByte) {
 void descapeData() {
   descapedDataLength = 0;
 
+/*
   for (int i = 0; i < rawDataLength; i++) {
     if (!checkEscaped(rawData[i])) {
       descapedDataLength++;
@@ -107,11 +218,37 @@ void descapeData() {
       descapedData[descapedDataIndex] = rawData[i];
       descapedDataIndex++;
     }
-  }
+  }*/
 }
 
 void writeBytes() {
   for (int i = 0; i < descapedDataLength; i++) {
-    Serial.print(descapedData[i]);
+    logger.log(descapedData[i]);
+    //Serial.print(descapedData[i]);
   }
+}
+
+
+void logState() {
+  String stateMsg = "";
+  switch (readingState) {
+
+    case START:
+      stateMsg = "start";
+      break;
+
+    case LENGTH:
+      stateMsg = "length";
+      break;
+
+    case READING:
+      stateMsg = "reading";
+      break;
+
+    case END:
+      stateMsg = "end";
+      break;
+
+  }
+  logger.logString(stateMsg);
 }

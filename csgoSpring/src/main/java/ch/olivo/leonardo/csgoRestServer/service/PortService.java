@@ -39,7 +39,6 @@ public class PortService {
   /**
    * This method makes a new instance of the port COM5.
    * It checks if there is already an instance of a port before it creates a new one.
-
    */
   private void createPort() {
     if (comPort != null) {
@@ -76,7 +75,7 @@ public class PortService {
    */
   public byte[] writeString(String msg) {
 
-    // create a byte array with the msg
+    // create a byte array with the msg; escaped test msg as byte array (126 5 104 101 108 111 37)
     byte[] escapedMsg = createMsg(msg);
 
     try {
@@ -150,4 +149,5 @@ public class PortService {
 
     return bytes;
   }
+
 }

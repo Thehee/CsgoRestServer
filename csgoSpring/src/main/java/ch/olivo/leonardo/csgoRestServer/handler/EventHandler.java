@@ -6,12 +6,14 @@ import ch.olivo.leonardo.csgoRestServer.handler.domain.CsgoEvent;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.RgbEvent;
 import ch.olivo.leonardo.csgoRestServer.service.PortService;
 import ch.olivo.leonardo.csgoRestServer.service.RgbEventService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.nio.charset.StandardCharsets;
 
 @Component
+@Slf4j
 public class EventHandler {
 
   @Autowired
@@ -29,10 +31,14 @@ public class EventHandler {
 
     // filter out the event that should be displayed
     RgbEvent rgbEvent = rgbService.defineEvent(csgoEvent);
-    System.out.println(rgbEvent);
+    log.info(String.valueOf(rgbEvent));
 
     byte[] response = portService.writeString("hello");
-    System.out.println(new String(response, StandardCharsets.UTF_8));
+    for (byte b : response) {
+      log.info(String.valueOf(b));
+    }
+
+    log.info(new String(response, StandardCharsets.UTF_8));
   }
 
 }
