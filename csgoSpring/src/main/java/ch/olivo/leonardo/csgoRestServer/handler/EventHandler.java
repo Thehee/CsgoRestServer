@@ -10,8 +10,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.nio.charset.StandardCharsets;
-
 @Component
 @Slf4j
 public class EventHandler {
@@ -32,13 +30,13 @@ public class EventHandler {
     // filter out the event that should be displayed
     RgbEvent rgbEvent = rgbService.defineEvent(csgoEvent);
     log.info(String.valueOf(rgbEvent));
-
-    byte[] response = portService.writeString("hello");
-    for (byte b : response) {
-      log.info(String.valueOf(b));
-    }
-
-    log.info(new String(response, StandardCharsets.UTF_8));
+    portService.writeString(10);
+//    byte[] response = portService.writeString(10);
+//    for (byte b : response) {
+//      log.info(String.valueOf(b));
+//    }
+//
+//    log.info(new String(response, StandardCharsets.UTF_8));
   }
 
 }

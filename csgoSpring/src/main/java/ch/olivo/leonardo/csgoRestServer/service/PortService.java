@@ -70,10 +70,9 @@ public class PortService {
 
   /**
    * This method writes a string, through a port.
-   * @param msg  message to write.
-   * @return Answer from Arduino.
+   * @param msg message to write.
    */
-  public byte[] writeString(String msg) {
+  public void writeString(int msg) {
 
     // create a byte array with the msg; escaped test msg as byte array (126 5 104 101 108 111 37)
     byte[] escapedMsg = createMsg(msg);
@@ -81,12 +80,12 @@ public class PortService {
     try {
       // try to send msg over the port.
       comPort.writeBytes(escapedMsg);
-      return comPort.readBytes(escapedMsg.length);
+      // return comPort.readBytes(escapedMsg.length);
 
     } catch (SerialPortException e) {
       e.printStackTrace();
     }
-    return null;
+//    return null;
   }
 
   /**
@@ -94,16 +93,18 @@ public class PortService {
    * @param msg the msg which should be converted to the byte array.
    * @return byte array which fulfils the protocol and includes the msg.
    */
-  private byte[] createMsg(String msg) {
+  private byte[] createMsg(int msg) {
     ArrayList<Byte> rawData = new ArrayList<>();
     ArrayList<Byte> escapedData = new ArrayList<>();
     // get the bytes from the msg
-    byte[] byteMsg = msg.getBytes();
+    byte byteMsg = (byte) msg;
 
     // insert them into the List
-    for (byte stringByte : byteMsg) {
-      rawData.add(stringByte);
-    }
+//    for (byte stringByte : byteMsg) {
+//      rawData.add(stringByte);
+//    }
+
+    rawData.add(byteMsg);
 
     // add start byte to escaped data
     escapedData.add(START_BYTE);
