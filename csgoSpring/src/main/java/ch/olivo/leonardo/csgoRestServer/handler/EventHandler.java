@@ -29,6 +29,7 @@ public class EventHandler {
 
     // filter out the event that should be displayed
     RgbEvent rgbEvent = rgbService.defineEvent(csgoEvent);
+
     log.info(String.valueOf(rgbEvent));
     portService.writeString(10);
 //    byte[] response = portService.writeString(10);
@@ -36,7 +37,7 @@ public class EventHandler {
 //      log.info(String.valueOf(b));
 //    }
 //
-//    log.info(new String(response, StandardCharsets.UTF_8));
+    //log.info(new String(response, StandardCharsets.UTF_8));
   }
 
 }

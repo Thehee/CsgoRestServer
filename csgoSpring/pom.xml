@@ -15,7 +15,7 @@
    <description>Demo project for Spring Boot</description>
 
    <properties>
-      <java.version>11</java.version>
+      <java.version>8</java.version>
    </properties>
 
    <dependencies>
@@ -51,7 +51,7 @@
       <dependency>
          <groupId>org.projectlombok</groupId>
          <artifactId>lombok</artifactId>
-         <version>1.18.4</version>
+         <version>1.18.10</version>
          <scope>provided</scope>
       </dependency>
 

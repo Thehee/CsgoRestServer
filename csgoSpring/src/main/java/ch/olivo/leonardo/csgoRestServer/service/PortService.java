@@ -9,7 +9,6 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import java.util.ArrayList;
 
-
 @Component
 public class PortService {
 
@@ -74,12 +73,13 @@ public class PortService {
    */
   public void writeString(int msg) {
 
-    // create a byte array with the msg; escaped test msg as byte array (126 5 104 101 108 111 37)
+    // create a byte array with the msg; escaped test msg as byte array (126 1 10 37)
     byte[] escapedMsg = createMsg(msg);
 
     try {
       // try to send msg over the port.
       comPort.writeBytes(escapedMsg);
+
       // return comPort.readBytes(escapedMsg.length);
 
     } catch (SerialPortException e) {
@@ -96,13 +96,9 @@ public class PortService {
   private byte[] createMsg(int msg) {
     ArrayList<Byte> rawData = new ArrayList<>();
     ArrayList<Byte> escapedData = new ArrayList<>();
+
     // get the bytes from the msg
     byte byteMsg = (byte) msg;
-
-    // insert them into the List
-//    for (byte stringByte : byteMsg) {
-//      rawData.add(stringByte);
-//    }
 
     rawData.add(byteMsg);
 
@@ -114,6 +110,8 @@ public class PortService {
     escapedData.add(1, ((byte) (escapedData.size() - 1)));
     // add end byte
     escapedData.add(END_BYTE);
+    escapedData.add(END_BYTE);
+
 
     return arrayListToByteArray(escapedData);
   }

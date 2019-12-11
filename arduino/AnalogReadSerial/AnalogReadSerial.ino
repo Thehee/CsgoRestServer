@@ -63,6 +63,9 @@ void loop() {
       case START:
         if (incomingByte == START_BYTE) {
           readingState = State::LENGTH;
+          digitalWrite(led, HIGH);
+          delay(250);
+          digitalWrite(led, LOW);
         }
         break;
 
@@ -103,13 +106,16 @@ void loop() {
         // logger.logString("END");
 
         descapeData();
+        delay(400);
+        digitalWrite(led, HIGH);
+        delay(1000);
+        digitalWrite(led, LOW);
 
-        if ((descapedData, DEC) == 10) {
+        /*if ((descapedData, DEC) == 10) {
           digitalWrite(led, HIGH);
-          delay(1000);
+          delay(100);
           digitalWrite(led, LOW);
-
-        }
+          }*/
 
         // logger.logString(String((char*) descapedData));
 
