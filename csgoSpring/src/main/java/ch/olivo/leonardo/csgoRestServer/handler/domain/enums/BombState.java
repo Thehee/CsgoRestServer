@@ -6,7 +6,7 @@ public enum BombState {
   EXPLODED {
     @Override
     public RgbEvent asRgbEvent() {
-      return RgbEvent.EXPLOADED;
+      return RgbEvent.EXPLODED;
     }
   },
   PLANTED {

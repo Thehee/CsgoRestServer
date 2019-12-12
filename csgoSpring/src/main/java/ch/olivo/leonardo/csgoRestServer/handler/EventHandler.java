@@ -31,13 +31,8 @@ public class EventHandler {
     RgbEvent rgbEvent = rgbService.defineEvent(csgoEvent);
 
     log.info(String.valueOf(rgbEvent));
-    portService.writeString(10);
-//    byte[] response = portService.writeString(10);
-//    for (byte b : response) {
-//      log.info(String.valueOf(b));
-//    }
-//
-    //log.info(new String(response, StandardCharsets.UTF_8));
+
+    portService.writeString(rgbEvent);
   }
 
 }

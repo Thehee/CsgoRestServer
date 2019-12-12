@@ -63,9 +63,6 @@ void loop() {
       case START:
         if (incomingByte == START_BYTE) {
           readingState = State::LENGTH;
-          digitalWrite(led, HIGH);
-          delay(250);
-          digitalWrite(led, LOW);
         }
         break;
 
@@ -106,18 +103,8 @@ void loop() {
         // logger.logString("END");
 
         descapeData();
-        delay(400);
-        digitalWrite(led, HIGH);
-        delay(1000);
-        digitalWrite(led, LOW);
+        colorEvents();
 
-        /*if ((descapedData, DEC) == 10) {
-          digitalWrite(led, HIGH);
-          delay(100);
-          digitalWrite(led, LOW);
-          }*/
-
-        // logger.logString(String((char*) descapedData));
 
         // writeBytes();
 
@@ -181,4 +168,42 @@ void logState() {
 
   }
   logger.logString(stateMsg);
+}
+
+void colorEvents() {
+
+  switch (descapedData[0]) {
+
+    case 1:
+      digitalWrite(led, HIGH);
+      delay(1000);
+      digitalWrite(led, LOW);
+      break;
+    case 2:
+      digitalWrite(led, HIGH);
+      delay(2000);
+      digitalWrite(led, LOW);
+      break;
+    case 3:
+      digitalWrite(led, HIGH);
+      delay(3000);
+      digitalWrite(led, LOW);
+      break;
+    case 4:
+      digitalWrite(led, HIGH);
+      delay(4000);
+      digitalWrite(led, LOW);
+      break;
+    case 5:
+      digitalWrite(led, HIGH);
+      delay(5000);
+      digitalWrite(led, LOW);
+      break;
+    case 6:
+      digitalWrite(led, HIGH);
+      delay(6000);
+      digitalWrite(led, LOW);
+      break;
+  }
+
 }
