@@ -22,8 +22,8 @@ public class RgbEventService {
 
   /**
    * returns the event that should be ran
-   * @param event
-   * @return RgbEvent
+   * @param event the event that happened in the game
+   * @return RgbEvent a certain rgb event that should be displayed by the LEDs
    */
   public RgbEvent defineEvent(CsgoEvent event) {
     List<RgbEvent> eventsList = new ArrayList<>();
@@ -46,9 +46,12 @@ public class RgbEventService {
 
     eventsList.add(team(event.getPlayer().getTeam()));
 
-    eventsList.add(damageTaken(event.getPlayer(), event.getPreviously().getPlayer()));
+    if (event.getPreviously() != null) {
 
-    eventsList.add(shotsFired(event.getPlayer(), event.getPreviously().getPlayer()));
+      eventsList.add(damageTaken(event.getPlayer(), event.getPreviously().getPlayer()));
+
+      eventsList.add(shotsFired(event.getPlayer(), event.getPreviously().getPlayer()));
+    }
 
     eventsList.removeAll(Collections.singleton(null));
 
@@ -63,7 +66,9 @@ public class RgbEventService {
 
   // returns the active nade if there is any
   private RgbEvent activeNade(List<Weapon> weapons) {
-
+    if (weapons == null) {
+      return null;
+    }
     for (Weapon weapon : weapons) {
       if (weapon.getWeaponState().isActive() && weapon.getGrenadeType() != null) {
         return weapon.getGrenadeType().asRgbEvent();
@@ -231,18 +236,5 @@ public class RgbEventService {
     }
 
     return highestPriority;
-  }
-
-
-  //----------------------------- bytes
-
-  public byte[] hexStringToByteArray(String s) {
-    byte[] b = new byte[s.length() / 2];
-    for (int i = 0; i < b.length; i++) {
-      int index = i * 2;
-      int v = Integer.parseInt(s.substring(index, index + 2), 16);
-      b[i] = (byte) v;
-    }
-    return b;
   }
 }

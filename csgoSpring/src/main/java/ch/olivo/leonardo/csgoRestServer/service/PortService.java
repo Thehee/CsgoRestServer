@@ -1,5 +1,6 @@
 package ch.olivo.leonardo.csgoRestServer.service;
 
+import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.RgbEvent;
 import jssc.SerialPort;
 import jssc.SerialPortException;
 import jssc.SerialPortList;
@@ -7,6 +8,7 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
+import java.awt.*;
 import java.util.ArrayList;
 
 @Component
@@ -44,7 +46,7 @@ public class PortService {
       return;
     }
     // print out all port names. I have only one (COM5).
-    for (String portName : SerialPortList.getPortNames()) {
+    for (String portName: SerialPortList.getPortNames()) {
       System.out.println(portName);
     }
 
@@ -69,20 +71,26 @@ public class PortService {
 
   /**
    * This method writes a string, through a port.
-   * @param msg message to write.
+   * @param rgbEvent event to write.
    */
-  public void writeString(int msg) {
+  public void writeString(RgbEvent rgbEvent) {
 
-    // create a byte array with the msg; escaped test msg as byte array (126 1 10 37)
-    byte[] escapedMsg = createMsg(msg);
+    // create a byte array with the msg; escaped test msg as byte array z.b.(126 4 3 -61 16 26 37 37)
+    byte[] escapedMsg = createMsg(rgbEvent);
 
     try {
       // try to send msg over the port.
       comPort.writeBytes(escapedMsg);
+//      response
+//      Thread.sleep(100);
+//      for (int number: comPort.readIntArray()) {
+//        System.out.println(number);
+//      }
 
+//      System.out.println(Arrays.toString(comPort.readIntArray()));
       // return comPort.readBytes(escapedMsg.length);
 
-    } catch (SerialPortException e) {
+    } catch (SerialPortException /*| InterruptedException*/ e) {
       e.printStackTrace();
     }
 //    return null;
@@ -90,18 +98,23 @@ public class PortService {
 
   /**
    * this method creates a byte array which fulfils a certain protocol .
-   * @param msg the msg which should be converted to the byte array.
+   * @param rgbEvent the event which should be converted to the byte array.
    * @return byte array which fulfils the protocol and includes the msg.
    */
-  private byte[] createMsg(int msg) {
+  private byte[] createMsg(RgbEvent rgbEvent) {
     ArrayList<Byte> rawData = new ArrayList<>();
     ArrayList<Byte> escapedData = new ArrayList<>();
 
-    // get the bytes from the msg
-    byte byteMsg = (byte) msg;
+    int commandNumber = rgbEvent.getColorEvent().getColorEventType().asCommandNumber();
+    Color color1 = rgbEvent.getColorEvent().getColor();
+    Color color2 = rgbEvent.getColorEvent().getSecondColor();
 
-    rawData.add(byteMsg);
 
+    rawData.add((byte) commandNumber);
+    rawData.addAll(rgbToByteList(color1));
+    if (color2 != null) {
+      rawData.addAll(rgbToByteList(color2));
+    }
     // add start byte to escaped data
     escapedData.add(START_BYTE);
     // escape the raw data from the msg
@@ -125,7 +138,7 @@ public class PortService {
   private ArrayList<Byte> escapeRawData(ArrayList<Byte> rawData) {
     ArrayList<Byte> escapedData = new ArrayList<>();
 
-    for (byte rawByte : rawData) {
+    for (byte rawByte: rawData) {
       // check if they are equal
       if (rawByte == START_BYTE || rawByte == END_BYTE || rawByte == ESCAPE_BYTE) {
         // when they are add an escape byte
@@ -147,6 +160,16 @@ public class PortService {
     }
 
     return bytes;
+  }
+
+  private ArrayList<Byte> rgbToByteList(Color color) {
+    ArrayList<Byte> rgbByte = new ArrayList<>();
+
+    rgbByte.add((byte) color.getRed());
+    rgbByte.add((byte) color.getGreen());
+    rgbByte.add((byte) color.getBlue());
+
+    return rgbByte;
   }
 
 }

@@ -172,6 +172,17 @@ void logState() {
 
 void colorEvents() {
 
+  /* Serial.print((int) descapedData[0]);
+    Serial.print((int) descapedData[1]);
+    Serial.print((int) descapedData[2]);
+    Serial.print((int) descapedData[3]);
+*/
+    if (descapedData[1] == 195) {
+    digitalWrite(led, HIGH);
+    delay(1000);
+    digitalWrite(led, LOW);
+    }
+/*
   switch (descapedData[0]) {
 
     case 1:
@@ -204,6 +215,6 @@ void colorEvents() {
       delay(6000);
       digitalWrite(led, LOW);
       break;
-  }
+  }*/
 
 }
