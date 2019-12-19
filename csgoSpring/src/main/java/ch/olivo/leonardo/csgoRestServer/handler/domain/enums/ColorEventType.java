@@ -1,5 +1,7 @@
 package ch.olivo.leonardo.csgoRestServer.handler.domain.enums;
 
+import java.util.Arrays;
+
 public enum ColorEventType {
   FLASH {
     @Override
@@ -42,4 +44,8 @@ public enum ColorEventType {
     return 0;
   }
 
+  public static ColorEventType byString(String commandName) {
+    return Arrays.stream(ColorEventType.values())
+        .filter(value -> value.name().toLowerCase().equals(commandName)).findFirst().orElse(null);
+  }
 }

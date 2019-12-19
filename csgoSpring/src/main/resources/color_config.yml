@@ -1,0 +1,104 @@
+burning:
+  color: {r: 252, g: 82, b: 51}
+  secondColor: {r: 195, g: 28, b: 83}
+  command: blinking
+
+damage:
+  color: {r: 195, g: 16, b: 26}
+  secondColor: null
+  command: blinking
+
+exploded:
+  color: {r: 195, g: 72, b: 8}
+  secondColor: {r: 195, g: 57, b: 28}
+  command: threeledstring
+
+defused:
+  color: {r: 50, g: 85, b: 195}
+  secondColor: {r: 33, g: 140, b: 195}
+  command: blinking
+
+roundoverwin:
+  color: {r: 19, g: 178, b: 45}
+  secondColor: null
+  command: blinking
+
+roundoverlost:
+  color: {r: 195, g: 28, b: 83}
+  secondColor: null
+  command: blinking
+
+flashed:
+  color: {r: 252, g: 252, b: 252}
+  secondColor: null
+  command: flash
+
+smoked:
+  color: {r: 128, g: 128, b: 128}
+  secondColor: null
+  command: default
+
+decoy:
+  color: {r: 77, g: 51, b: 0}
+  secondColor: null
+  command: default
+
+smoke:
+  color: {r: 147, g: 147, b: 147}
+  secondColor: null
+  command: default
+
+molotv:
+  color: {r: 255, g: 89, b: 28}
+  secondColor: null
+  command: default
+
+he:
+  color: {r: 139, g: 89, b: 28}
+  secondColor: null
+  command: default
+
+flashbang:
+  color: {r: 195, g: 192, b: 83}
+  secondColor: null
+  command: default
+
+longline:
+  color: {r: 195, g: 77, b: 23}
+  secondColor: {r: 195, g: 60, b: 26}
+  command: fourledstring
+
+mediumline:
+  color: {r: 195, g: 77, b: 23}
+  secondColor: {r: 195, g: 60, b: 26}
+  command: threeledstring
+
+shortline:
+  color: {r: 195, g: 77, b: 23}
+  secondColor: {r: 195, g: 60, b: 26}
+  command: twoledstring
+
+tasershot:
+  color: {r: 36, g: 80, b: 195}
+  secondColor: {r: 50, g: 115, b: 195}
+  command: fourledstring
+
+freeztime:
+  color: {r: 42, g: 165, b: 212}
+  secondColor: null
+  command: default
+
+planted:
+  color: {r: 208, g: 84, b: 24}
+  secondColor: null
+  command: default
+
+t:
+  color: {r: 195, g: 134, b: 30}
+  secondColor: null
+  command: default
+
+ct:
+  color: {r: 61, g: 92, b: 195}
+  secondColor: null
+  command: default

@@ -165,56 +165,17 @@ void logState() {
     case END:
       stateMsg = "end";
       break;
-
   }
+
   logger.logString(stateMsg);
 }
 
 void colorEvents() {
 
-  /* Serial.print((int) descapedData[0]);
-    Serial.print((int) descapedData[1]);
-    Serial.print((int) descapedData[2]);
-    Serial.print((int) descapedData[3]);
-*/
-    if (descapedData[1] == 195) {
+  if (descapedData[1] == 195) {
     digitalWrite(led, HIGH);
     delay(1000);
     digitalWrite(led, LOW);
-    }
-/*
-  switch (descapedData[0]) {
-
-    case 1:
-      digitalWrite(led, HIGH);
-      delay(1000);
-      digitalWrite(led, LOW);
-      break;
-    case 2:
-      digitalWrite(led, HIGH);
-      delay(2000);
-      digitalWrite(led, LOW);
-      break;
-    case 3:
-      digitalWrite(led, HIGH);
-      delay(3000);
-      digitalWrite(led, LOW);
-      break;
-    case 4:
-      digitalWrite(led, HIGH);
-      delay(4000);
-      digitalWrite(led, LOW);
-      break;
-    case 5:
-      digitalWrite(led, HIGH);
-      delay(5000);
-      digitalWrite(led, LOW);
-      break;
-    case 6:
-      digitalWrite(led, HIGH);
-      delay(6000);
-      digitalWrite(led, LOW);
-      break;
-  }*/
+  }
 
 }
