@@ -44,6 +44,11 @@ public enum ColorEventType {
     return 0;
   }
 
+  /**
+   * Finds the right Enum by a String
+   * @param commandName is the name of the enum as String
+   * @return ColorEventType which equals the param
+   */
   public static ColorEventType byString(String commandName) {
     return Arrays.stream(ColorEventType.values())
         .filter(value -> value.name().toLowerCase().equals(commandName)).findFirst().orElse(null);

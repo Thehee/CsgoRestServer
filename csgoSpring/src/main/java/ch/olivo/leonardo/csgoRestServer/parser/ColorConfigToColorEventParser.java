@@ -2,6 +2,7 @@ package ch.olivo.leonardo.csgoRestServer.parser;
 
 import ch.olivo.leonardo.csgoRestServer.handler.domain.ColorEvent;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.enums.ColorEventType;
+import lombok.NonNull;
 import org.springframework.stereotype.Component;
 
 import java.awt.*;
@@ -10,7 +11,13 @@ import java.util.stream.Collectors;
 
 @Component
 public class ColorConfigToColorEventParser {
-  public Map<String, ColorEvent> parse(Map<String, Map> colorConfig) {
+
+  /**
+   * parser for parsing the data from GetColorConfigYml.java to a Map with a string as key and ColorEvent.java as value
+   * @param colorConfig the data from GetColorConfigYml.java which is useless since it stores Strings
+   * @return a Map with a String as key and a ColorEvent.java object as value
+   */
+  public Map<String, ColorEvent> parse(@NonNull Map<String, Map> colorConfig) {
 
     return colorConfig.entrySet().stream()
         .collect(Collectors.toMap(Map.Entry::getKey, entry -> createNewColorEvent(getColor(((Map<String, Map>) entry.getValue()).get("color")),
@@ -25,5 +32,4 @@ public class ColorConfigToColorEventParser {
   private ColorEvent createNewColorEvent(Color color, Color secondColor, String command) {
     return new ColorEvent(color, secondColor, ColorEventType.byString(command));
   }
-
 }
