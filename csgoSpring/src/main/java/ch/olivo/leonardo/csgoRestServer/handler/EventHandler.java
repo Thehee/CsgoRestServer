@@ -30,6 +30,11 @@ public class EventHandler {
     // filter out the event that should be displayed
     RgbEvent rgbEvent = rgbService.defineEvent(csgoEvent);
 
+    // review PKE: hier känntest du nun ein interface definieren. z.b. RgbEventHandler.
+    // davon kannst du dann mehrere Implementationen machen. Eine für Arduino, eine für Graphikkarte, etc.
+    // Autowiren könntest du dann gleich alle davon (List<RgbEventHandler> rgbEventHandlers) und dann alle
+    // den oben erstellten event handlen lassen.
+
     log.info(String.valueOf(rgbEvent));
     portService.writeString(10);
 //    byte[] response = portService.writeString(10);

@@ -1,6 +1,10 @@
 package ch.olivo.leonardo.csgoRestServer.handler.domain.enums;
 
 public enum ColorEventType {
+
+  // review PKE: wieso machst du das so? Siehe änderung BombState.java. Wäre das nicht auch eine
+  // möglichkeit für hier?
+
   FLASH {
     @Override
     public int asCommandNumber() {

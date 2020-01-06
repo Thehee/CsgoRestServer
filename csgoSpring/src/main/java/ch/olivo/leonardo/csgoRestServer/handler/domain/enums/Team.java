@@ -3,6 +3,10 @@ package ch.olivo.leonardo.csgoRestServer.handler.domain.enums;
 import java.util.Arrays;
 
 public enum Team {
+
+  // review PKE: wieso machst du das so? Siehe änderung BombState.java. Wäre das nicht auch eine
+  // möglichkeit für hier?
+
   T {
     @Override
     public RgbEvent asRgbEvent() {

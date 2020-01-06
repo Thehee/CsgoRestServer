@@ -16,6 +16,10 @@ import java.util.List;
 @Service
 public class RgbEventService {
 
+  // review PKE: ich finde den Klassennamen etwas unglücklich.
+  // eigentlich ist das ja ein converter. Konvertiert von CsgoEvent nach RgbEvent. Würde ich daher dann auch so
+  // benennen.
+
   // ----------------------------- rgb event collector
   // TODO REFACTOR PLEASE IT LOOKS DISGUSTING. Update 1: looks a little better
   // TODO add damage and shooting when previously is implemented.
@@ -93,7 +97,7 @@ public class RgbEventService {
 
       case LIVE:
         if (round.getBomb() != null) {
-          events.add(round.getBomb().asRgbEvent());
+          events.add(round.getBomb().getRgbEvent());
         }
         break;
 
@@ -107,8 +111,7 @@ public class RgbEventService {
   // returns the bomb state
   private RgbEvent bombEvent(BombState bombState) {
     if (bombState != null) {
-
-      return bombState.asRgbEvent();
+      return bombState.getRgbEvent();
     }
     return null;
   }
@@ -147,8 +150,7 @@ public class RgbEventService {
   // returns the right event if a shot has been fired
   private RgbEvent shotsFired(Player player, Player previouslyPlayer) {
     if (previouslyPlayer == null || previouslyPlayer.getWeapons() == null || previouslyPlayer.getWeapons().size() != 1
-        || previouslyPlayer.getWeapons().get(0).getAmmo_clip() == null
-    ) {
+        || previouslyPlayer.getWeapons().get(0).getAmmo_clip() == null) {
       return null;
     }
 

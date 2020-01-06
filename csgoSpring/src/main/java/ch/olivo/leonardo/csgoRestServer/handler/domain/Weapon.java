@@ -14,5 +14,6 @@ public class Weapon {
   private WeaponType type;
   private GrenadeType grenadeType;
   private Integer ammo_clip;
+  // PKE ammoClip
   private WeaponState weaponState;
 }

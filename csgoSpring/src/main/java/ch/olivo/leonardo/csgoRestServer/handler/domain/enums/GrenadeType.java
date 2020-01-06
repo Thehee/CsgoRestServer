@@ -5,6 +5,10 @@ import org.springframework.util.StringUtils;
 import java.util.Arrays;
 
 public enum GrenadeType {
+
+  // review PKE: wieso machst du das so? Siehe änderung BombState.java. Wäre das nicht auch eine
+  // möglichkeit für hier?
+
   FLASHBANG {
     @Override
     public RgbEvent asRgbEvent() {

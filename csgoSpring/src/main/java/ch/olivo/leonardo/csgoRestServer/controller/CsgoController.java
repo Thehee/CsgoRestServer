@@ -19,6 +19,7 @@ public class CsgoController {
 
   @Autowired
   private EventHandler csgoEvent;
+  // TODO die variable würde ich csgoEventHandler nennen
 
   @RequestMapping(path = "/api", method = RequestMethod.POST)
   @ResponseBody

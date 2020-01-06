@@ -12,6 +12,8 @@ import java.util.ArrayList;
 @Component
 public class PortService {
 
+  // review PKE: Naming: Ich würde das umbennen zu SerialPortService. Port ist zu wenig spezifisch.
+
   private SerialPort comPort;
   private final byte START_BYTE = 0x7E;
   private final byte END_BYTE = 0x25;
@@ -31,6 +33,7 @@ public class PortService {
     try {
       comPort.closePort();
     } catch (SerialPortException e) {
+      // TODO logger verwenden
       e.printStackTrace();
     }
   }

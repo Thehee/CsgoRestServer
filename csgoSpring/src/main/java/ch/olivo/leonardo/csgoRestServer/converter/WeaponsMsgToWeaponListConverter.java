@@ -17,11 +17,12 @@ public class WeaponsMsgToWeaponListConverter {
   @Autowired
   private WeaponMsgToWeaponConverter weaponConverter;
 
+  List<Weapon> weapons = new ArrayList<>();
   public List<Weapon> convert(WeaponsMsg weaponsMsg) {
     if (weaponsMsg == null) {
-      return null;
+      return weapons;
+      // review PKE: statt null würde ich empty List zurückgeben
     }
-    List<Weapon> weapons = new ArrayList<>();
 
     // is kinda ugly. UPDATE! still a little ugly but better.
     for (int i = 0; i < 9; i++) {
@@ -34,6 +35,7 @@ public class WeaponsMsgToWeaponListConverter {
           weapons.add(weaponConverter.convert(weapon, i));
         }
       } catch (NoSuchMethodException | IllegalAccessException | InvocationTargetException e) {
+        // review PKE: logger verwenden.
         e.printStackTrace();
       }
     }

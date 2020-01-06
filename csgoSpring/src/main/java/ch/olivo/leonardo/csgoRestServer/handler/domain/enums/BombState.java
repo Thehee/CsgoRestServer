@@ -3,28 +3,21 @@ package ch.olivo.leonardo.csgoRestServer.handler.domain.enums;
 import java.util.Arrays;
 
 public enum BombState {
-  EXPLODED {
-    @Override
-    public RgbEvent asRgbEvent() {
-      return RgbEvent.EXPLOADED;
-    }
-  },
-  PLANTED {
-    @Override
-    public RgbEvent asRgbEvent() {
-      return RgbEvent.PLANTED;
-    }
-  },
-  DEFUSED {
-    @Override
-    public RgbEvent asRgbEvent() {
-      return RgbEvent.DEFUSED;
-    }
-  };
 
-  // default
-  public RgbEvent asRgbEvent() {
-    return null;
+  //Review PKE: Habe mir erlaubt das mal so umzustellen. Was würde gebgen diese Lösung sprechen?
+
+  EXPLODED(RgbEvent.EXPLOADED),
+  PLANTED(RgbEvent.PLANTED),
+  DEFUSED(RgbEvent.DEFUSED);
+
+  private final RgbEvent rgbEvent;
+
+  BombState(RgbEvent rgbEvent) {
+    this.rgbEvent = rgbEvent;
+  }
+
+  public RgbEvent getRgbEvent() {
+    return rgbEvent;
   }
 
   public static BombState byString(String state) {
