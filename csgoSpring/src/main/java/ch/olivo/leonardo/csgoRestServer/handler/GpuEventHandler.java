@@ -4,6 +4,10 @@ import ch.olivo.leonardo.csgoRestServer.controller.msg.CsgoEventRequest;
 import org.springframework.stereotype.Component;
 
 @Component
-public interface EventHandler {
-  void handleEvent(CsgoEventRequest eventRequest);
+public class GpuEventHandler implements EventHandler {
+
+  @Override
+  public void handleEvent(CsgoEventRequest eventRequest) {
+    System.out.println("hello");
+  }
 }

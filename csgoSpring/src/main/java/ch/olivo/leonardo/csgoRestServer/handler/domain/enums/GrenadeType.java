@@ -1,45 +1,22 @@
 package ch.olivo.leonardo.csgoRestServer.handler.domain.enums;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 import org.springframework.util.StringUtils;
 
 import java.util.Arrays;
 
+@Getter
+@AllArgsConstructor
 public enum GrenadeType {
-  FLASHBANG {
-    @Override
-    public RgbEvent asRgbEvent() {
-      return RgbEvent.FLASHBANG;
-    }
-  },
-  MOLOTOV {
-    @Override
-    public RgbEvent asRgbEvent() {
-      return RgbEvent.MOLOTOV;
-    }
-  },
-  HE {
-    @Override
-    public RgbEvent asRgbEvent() {
-      return RgbEvent.HE;
-    }
-  },
-  DECOY {
-    @Override
-    public RgbEvent asRgbEvent() {
-      return RgbEvent.DECOY;
-    }
-  },
-  SMOKE {
-    @Override
-    public RgbEvent asRgbEvent() {
-      return RgbEvent.SMOKE;
-    }
-  };
+  FLASHBANG (RgbEvent.FLASHBANG),
+  MOLOTOV (RgbEvent.MOLOTOV),
+  HE (RgbEvent.HE),
+  DECOY (RgbEvent.DECOY),
+  SMOKE (RgbEvent.SMOKE);
 
   // default
-  public RgbEvent asRgbEvent() {
-    return null;
-  }
+  private final RgbEvent rgbEvent;
 
   /**
    * returns the grenade type by the name of the weapon

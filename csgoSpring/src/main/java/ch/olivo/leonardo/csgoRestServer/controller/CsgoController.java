@@ -1,6 +1,7 @@
 package ch.olivo.leonardo.csgoRestServer.controller;
 
 import ch.olivo.leonardo.csgoRestServer.controller.msg.CsgoEventRequest;
+import ch.olivo.leonardo.csgoRestServer.handler.ArduinoEventHandler;
 import ch.olivo.leonardo.csgoRestServer.handler.EventHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 
 @RestController
 @RequestMapping(path = "/")
@@ -18,7 +21,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class CsgoController {
 
   @Autowired
-  private EventHandler csgoEvent;
+  private ArduinoEventHandler csgoEvent;
+
+  @Autowired
+  List<EventHandler> eventHandlers;
 
   @RequestMapping(path = "/api", method = RequestMethod.POST)
   @ResponseBody
@@ -32,7 +38,10 @@ public class CsgoController {
   @ResponseBody
   public ResponseEntity<Void> handleEvent(@RequestBody CsgoEventRequest csgoEventRequest) {
 //    System.out.println(jsonString);
-    csgoEvent.handleEvent(csgoEventRequest);
+    for (EventHandler eventHandler: eventHandlers) {
+      eventHandler.handleEvent(csgoEventRequest);
+    }
+//    csgoEvent.handleEvent(csgoEventRequest);
     log.info("nice");
     return ResponseEntity.noContent().build();
   }

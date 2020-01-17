@@ -10,6 +10,6 @@ public class PlayerState {
   private boolean flashed;
   private boolean smoked;
   private boolean burning;
-  private int round_kills;
-  private int round_killhs;
+  private int roundKills;
+  private int roundKillhs;
 }

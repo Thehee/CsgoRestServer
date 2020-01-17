@@ -43,7 +43,7 @@
       <appender-ref ref="Console" />
    </logger>
 
-   <logger name="ch.olivo.leonardo.csgoRestServer.handler.EventHandler" level="info" additivity="false">
+   <logger name="ch.olivo.leonardo.csgoRestServer.handler.ArduinoEventHandler" level="info" additivity="false">
       <appender-ref ref="RollingFile" />
       <appender-ref ref="Console" />
    </logger>

@@ -1,25 +1,18 @@
 package ch.olivo.leonardo.csgoRestServer.handler.domain.enums;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
 import java.util.Arrays;
 
+@Getter
+@AllArgsConstructor
 public enum Team {
-  T {
-    @Override
-    public RgbEvent asRgbEvent() {
-      return RgbEvent.T;
-    }
-  },
-  CT {
-    @Override
-    public RgbEvent asRgbEvent() {
-      return RgbEvent.CT;
-    }
-  },;
+  T (RgbEvent.T),
+  CT (RgbEvent.CT);
 
   // default
-  public RgbEvent asRgbEvent() {
-    return null;
-  }
+  private final RgbEvent rgbEvent;
 
   public static Team byString(String state) {
     return Arrays.stream(Team.values())

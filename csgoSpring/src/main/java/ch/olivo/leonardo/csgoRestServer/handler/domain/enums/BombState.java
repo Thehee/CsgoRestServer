@@ -1,31 +1,19 @@
 package ch.olivo.leonardo.csgoRestServer.handler.domain.enums;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
 import java.util.Arrays;
 
+@Getter
+@AllArgsConstructor
 public enum BombState {
-  EXPLODED {
-    @Override
-    public RgbEvent asRgbEvent() {
-      return RgbEvent.EXPLODED;
-    }
-  },
-  PLANTED {
-    @Override
-    public RgbEvent asRgbEvent() {
-      return RgbEvent.PLANTED;
-    }
-  },
-  DEFUSED {
-    @Override
-    public RgbEvent asRgbEvent() {
-      return RgbEvent.DEFUSED;
-    }
-  };
+  EXPLODED(RgbEvent.EXPLODED),
+  PLANTED (RgbEvent.PLANTED),
+  DEFUSED (RgbEvent.DEFUSED);
 
   // default
-  public RgbEvent asRgbEvent() {
-    return null;
-  }
+  private final RgbEvent rgbEvent;
 
   public static BombState byString(String state) {
     return Arrays.stream(BombState.values())

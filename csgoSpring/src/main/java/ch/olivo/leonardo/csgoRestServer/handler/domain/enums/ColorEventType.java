@@ -1,48 +1,21 @@
 package ch.olivo.leonardo.csgoRestServer.handler.domain.enums;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
 import java.util.Arrays;
 
+@Getter
+@AllArgsConstructor
 public enum ColorEventType {
-  FLASH {
-    @Override
-    public int asCommandNumber() {
-      return 1;
-    }
-  },
-  DEFAULT {
-    @Override
-    public int asCommandNumber() {
-      return 2;
-    }
-  },
-  BLINKING {
-    @Override
-    public int asCommandNumber() {
-      return 3;
-    }
-  },
-  TWOLEDSTRING {
-    @Override
-    public int asCommandNumber() {
-      return 4;
-    }
-  },
-  THREELEDSTRING {
-    @Override
-    public int asCommandNumber() {
-      return 5;
-    }
-  },
-  FOURLEDSTRING {
-    @Override
-    public int asCommandNumber() {
-      return 6;
-    }
-  };
+  FLASH (1),
+  DEFAULT (2),
+  BLINKING (3),
+  TWOLEDSTRING (4),
+  THREELEDSTRING (5),
+  FOURLEDSTRING (6);
 
-  public int asCommandNumber() {
-    return 0;
-  }
+  private final int commandNumber;
 
   /**
    * Finds the right Enum by a String

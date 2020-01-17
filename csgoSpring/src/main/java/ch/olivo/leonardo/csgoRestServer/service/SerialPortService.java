@@ -12,7 +12,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 @Component
-public class PortService {
+public class SerialPortService {
 
   private SerialPort comPort;
   private final byte START_BYTE = 0x7E;
@@ -105,7 +105,7 @@ public class PortService {
     ArrayList<Byte> rawData = new ArrayList<>();
     ArrayList<Byte> escapedData = new ArrayList<>();
 
-    int commandNumber = rgbEvent.getColorEvent().getColorEventType().asCommandNumber();
+    int commandNumber = rgbEvent.getColorEvent().getColorEventType().getCommandNumber();
     Color color1 = rgbEvent.getColorEvent().getColor();
     Color color2 = rgbEvent.getColorEvent().getSecondColor();
 

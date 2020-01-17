@@ -19,7 +19,7 @@ public class RoundMsgToRoundConverter {
     return Round.builder()
         .phase(RoundPhase.byString(roundMsg.getPhase()))
         .bomb(BombState.byString(roundMsg.getBomb()))
-        .win_team(Team.byString(roundMsg.getWin_team()))
+        .winTeam(Team.byString(roundMsg.getWin_team()))
         .build();
   }
 }

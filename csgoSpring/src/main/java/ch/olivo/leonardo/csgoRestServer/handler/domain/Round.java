@@ -11,5 +11,5 @@ import lombok.Getter;
 public class Round {
   private RoundPhase phase;
   private BombState bomb;
-  private Team win_team;
+  private Team winTeam;
 }

@@ -1,4 +1,4 @@
-package ch.olivo.leonardo.csgoRestServer.service;
+package ch.olivo.leonardo.csgoRestServer.handler.converter;
 
 import ch.olivo.leonardo.csgoRestServer.handler.domain.CsgoEvent;
 import ch.olivo.leonardo.csgoRestServer.handler.domain.Player;
@@ -14,11 +14,11 @@ import java.util.Collections;
 import java.util.List;
 
 @Service
-public class RgbEventService {
+public class CsgoEventToRgbEventConverter {
 
   // ----------------------------- rgb event collector
-  // TODO REFACTOR PLEASE IT LOOKS DISGUSTING. Update 1: looks a little better
-  // TODO add damage and shooting when previously is implemented.
+  // TODO REFACTOR PLEASE IT LOOKS DISGUSTING.
+  //  Update 1: looks a little better
 
   /**
    * returns the event that should be ran
@@ -71,7 +71,7 @@ public class RgbEventService {
     }
     for (Weapon weapon : weapons) {
       if (weapon.getWeaponState().isActive() && weapon.getGrenadeType() != null) {
-        return weapon.getGrenadeType().asRgbEvent();
+        return weapon.getGrenadeType().getRgbEvent();
       }
     }
 
@@ -91,14 +91,14 @@ public class RgbEventService {
       case OVER:
         events.add(bombEvent(round.getBomb()));
 
-        if (round.getWin_team() != null) {
-          events.add(winnerTeam(round.getWin_team(), team));
+        if (round.getWinTeam() != null) {
+          events.add(winnerTeam(round.getWinTeam(), team));
         }
         break;
 
       case LIVE:
         if (round.getBomb() != null) {
-          events.add(round.getBomb().asRgbEvent());
+          events.add(round.getBomb().getRgbEvent());
         }
         break;
 
@@ -113,7 +113,7 @@ public class RgbEventService {
   private RgbEvent bombEvent(BombState bombState) {
     if (bombState != null) {
 
-      return bombState.asRgbEvent();
+      return bombState.getRgbEvent();
     }
     return null;
   }
@@ -121,7 +121,7 @@ public class RgbEventService {
   // defines the team of the player and returns the RGB event
   private RgbEvent team(Team team) {
     if (team != null) {
-      return team.asRgbEvent();
+      return team.getRgbEvent();
     }
 
     return null;
